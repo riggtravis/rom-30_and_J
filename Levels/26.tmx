@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="castleCenter2" tilewidth="32" tileheight="32">
+  <image source="../Assets/Kenney/Base pack/Tiles/castleCenter2.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztlEsOwCAIRPl4/zO3Cyd9sQ3iviREVHQAGYeZjak5R781sMZ5zHlOO3CO6rB/+eVU1F/Z9A/oCYZ61Rv+8hMPuhjkz44PaU/uXRzyl1ysMMhznatEvgG7qpnuZd6791GtfLE7MRGjyp1/V+eP8kVVqyqu9T2ERxE+7xzLyN5Je+N/7THWCwgZAUg=
+  </data>
+ </layer>
+</map>

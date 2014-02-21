@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="castleCenter2" tilewidth="32" tileheight="32">
+  <image source="../Assets/Kenney/Base pack/Tiles/castleCenter2.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="5" name="bridge2" tilewidth="64" tileheight="16">
+  <image source="../Assets/Kenney/Base pack/Tiles/bridge2.png" width="64" height="16"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJy1k1EKwDAIQ61197/yKhhWBtKWmgf52Ucya1QR0aE21KWGNvlV+mbYRsYT2v3+x+fQw/86xf2Zb9UjgzkH9m1JzskOsr1gBma3unz9bcQMC38jZSBn1a3b+8AsTNjddbLeVjLfCARu7gNdhecLLd4A0Q==
+  </data>
+ </layer>
+</map>
