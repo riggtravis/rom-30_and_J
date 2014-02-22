@@ -19,7 +19,10 @@
     <used-behaviors>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="LOS" version="1">Line Of Sight</behavior>
+<<<<<<< HEAD
         <behavior author="Scirra" id="Persist" version="1">Persist</behavior>
+=======
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
@@ -64,9 +67,12 @@
                 <behavior-type name="LineOfSight" sid="6304466556058982">
                     <behavior id="LOS" />
                 </behavior-type>
+<<<<<<< HEAD
                 <behavior-type name="Persist" sid="8629527323020609">
                     <behavior id="Persist" />
                 </behavior-type>
+=======
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
             </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="stand" pingpong="0" repeatcount="1" repeatto="0" sid="1128942535181116" speed="5">
@@ -363,9 +369,12 @@
                 <behavior-type name="Pin" sid="903362600768089">
                     <behavior id="Pin" />
                 </behavior-type>
+<<<<<<< HEAD
                 <behavior-type name="Persist" sid="330005307742948">
                     <behavior id="Persist" />
                 </behavior-type>
+=======
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
             </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6641228920338609" speed="5">
@@ -550,9 +559,12 @@
                 <behavior-type name="LineOfSight" sid="9184441626690677">
                     <behavior id="LOS" />
                 </behavior-type>
+<<<<<<< HEAD
                 <behavior-type name="Persist" sid="7503798480382835">
                     <behavior id="Persist" />
                 </behavior-type>
+=======
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
             </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="stand" pingpong="0" repeatcount="1" repeatto="0" sid="3605167366520401" speed="5">
@@ -682,11 +694,14 @@
         </object-type>
         <object-type name="GPS" sid="1703565264946324">
             <plugin id="Sprite" />
+<<<<<<< HEAD
             <behaviors>
                 <behavior-type name="Persist" sid="5607402770171842">
                     <behavior id="Persist" />
                 </behavior-type>
             </behaviors>
+=======
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7517461784297017" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
@@ -714,21 +729,153 @@
                 <instance-variable comment="Does the player have the antivirus?" name="AV" sid="4790801203147381" type="boolean" />
                 <instance-variable comment="Does the player have the data sheet?" name="DS" sid="5925963493497268" type="boolean" />
                 <instance-variable comment="Does the player have the Energy Crystals" name="EC" sid="2896435960700723" type="boolean" />
+<<<<<<< HEAD
                 <instance-variable comment="Has ROM30 handed over the geepus?" name="ReceivedGPS" sid="8713684763988327" type="boolean" />
                 <instance-variable comment="Has ROM30 handed over the beer?" name="ReceivedBeer" sid="1525454394301829" type="boolean" />
                 <instance-variable comment="Has ROM30 handed over the vest?" name="ReceivedKV" sid="9046618120999826" type="boolean" />
             </instance-variables>
         </object-type>
+=======
+            </instance-variables>
+        </object-type>
+        <object-type name="Tall_Mob" sid="1889635976499165">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="2783266243947383">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="LineOfSight" sid="6128301725943854">
+                    <behavior id="LOS" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="8848619727857851" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.0625">
+                        <collision-poly>
+                            <point x="0.145833" y="0.4375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854167" y="0.4375" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="0" name="Attack" pingpong="0" repeatcount="1" repeatto="0" sid="9673690934313445" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.0625">
+                        <collision-poly>
+                            <point x="0.145833" y="0.4375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854167" y="0.4375" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.02174">
+                        <collision-poly>
+                            <point x="0.145833" y="0.152174" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854167" y="0.152174" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.01163">
+                        <collision-poly>
+                            <point x="0.0416667" y="0.104651" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0.0813954" />
+                            <point x="1" y="0.848837" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.848837" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.00685">
+                        <collision-poly>
+                            <point x="0.145833" y="0.0479452" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854167" y="0.0479452" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="5" loop="0" name="Retreat" pingpong="0" repeatcount="1" repeatto="0" sid="5521870718561719" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.62931">
+                        <collision-poly>
+                            <point x="0.145833" y="0.0603448" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854167" y="0.0603448" />
+                            <point x="1" y="0.62931" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.62931" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.848837" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.30357">
+                        <collision-poly>
+                            <point x="0.145833" y="0.125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854167" y="0.125" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="2.80769">
+                        <collision-poly>
+                            <point x="0.145833" y="0.269231" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854167" y="0.269231" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="4.5625">
+                        <collision-poly>
+                            <point x="0.145833" y="0.4375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.854167" y="0.4375" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
     </object-folder>
     <families />
     <layout-folder expanded="1">
         <layout>Select.xml</layout>
         <layout>r13(start).xml</layout>
+<<<<<<< HEAD
         <layout>r14.xml</layout>
         <layout>j14.xml</layout>
         <layout>r15(GPS).xml</layout>
         <layout>j15(GPS).xml</layout>
         <layout>j13(start).xml</layout>
+=======
+        <layout>r13(right).xml</layout>
+        <layout>r14.xml</layout>
+        <layout>r14(bottom).xml</layout>
+        <layout>r15(GPS).xml</layout>
+        <layout>Jplay.xml</layout>
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
     </layout-folder>
     <event-folder expanded="1">
         <event-sheet>ROMplay.xml</event-sheet>
@@ -737,9 +884,13 @@
         <event-sheet>r13.xml</event-sheet>
         <event-sheet>r14.xml</event-sheet>
         <event-sheet>r15.xml</event-sheet>
+<<<<<<< HEAD
         <event-sheet>j13.xml</event-sheet>
         <event-sheet>j14.xml</event-sheet>
         <event-sheet>j15.xml</event-sheet>
+=======
+        <event-sheet>Tall_Mob.xml</event-sheet>
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="20" />

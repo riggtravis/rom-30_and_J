@@ -13,8 +13,13 @@
                 </condition>
             </conditions>
             <actions>
+<<<<<<< HEAD
                 <action id="-2" name="Go to layout" sid="6988931956290329" type="System">
                     <param id="0" name="Layout">r13(start)</param>
+=======
+                <action id="-2" name="Go to layout" sid="2876710654884304" type="System">
+                    <param id="0" name="Layout">r13(right)</param>
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
                 </action>
             </actions>
         </event-block>
@@ -31,6 +36,7 @@
                 </action>
             </actions>
         </event-block>
+<<<<<<< HEAD
         <event-block sid="3183422910645379">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="2308856227722574" type="System" />
@@ -44,5 +50,7 @@
                 </action>
             </actions>
         </event-block>
+=======
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
     </events>
 </c2eventsheet>

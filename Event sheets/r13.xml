@@ -3,6 +3,10 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>r13</name>
     <events>
+<<<<<<< HEAD
+=======
+        <include>Tall_Mob</include>
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
         <include>ROMplay</include>
         <event-block sid="1643162618682555">
             <conditions>
@@ -15,9 +19,12 @@
                 <action id="-2" name="Go to layout" sid="8248255571205368" type="System">
                     <param id="0" name="Layout">r14</param>
                 </action>
+<<<<<<< HEAD
                 <action id="-1" name="Set X" sid="5815710883278342" type="ROM30">
                     <param id="0" name="X">750</param>
                 </action>
+=======
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
             </actions>
         </event-block>
         <event-block sid="5643801635146723">

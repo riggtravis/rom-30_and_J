@@ -9,6 +9,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         </active>
         <display name="HTML5" />
     </configurations>
+<<<<<<< HEAD
     <open-tabs>
         <layout>r13(start)</layout>
         <layout>Select</layout>
@@ -27,6 +28,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet active="1">j14</event-sheet>
         <event-sheet>j15</event-sheet>
     </open-tabs>
+=======
+    <open-tabs />
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />

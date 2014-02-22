@@ -745,7 +745,10 @@
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
                         </behavior-instance>
+<<<<<<< HEAD
                         <behavior-instance type="Persist" />
+=======
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -769,9 +772,12 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+<<<<<<< HEAD
                     <behavior-instances>
                         <behavior-instance type="Persist" />
                     </behavior-instances>
+=======
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -830,9 +836,12 @@
                 <AV>false</AV>
                 <DS>false</DS>
                 <EC>false</EC>
+<<<<<<< HEAD
                 <ReceivedGPS>false</ReceivedGPS>
                 <ReceivedBeer>false</ReceivedBeer>
                 <ReceivedKV>false</ReceivedKV>
+=======
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
             </instance-variables>
         </instance>
     </nonworld-instances>

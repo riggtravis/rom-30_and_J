@@ -171,6 +171,7 @@
                 </action>
             </actions>
         </event-block>
+<<<<<<< HEAD
         <event-block sid="4392577237333278">
             <conditions>
                 <condition id="1" name="Is overlapping another object" sid="3281721649695342" type="ROM30">
@@ -220,5 +221,7 @@
                 </event-block>
             </sub-events>
         </event-block>
+=======
+>>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
     </events>
 </c2eventsheet>
