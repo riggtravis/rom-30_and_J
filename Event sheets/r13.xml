@@ -22,7 +22,7 @@
             <conditions>
                 <condition id="-1" name="Compare X" sid="8007301357614759" type="ROM30">
                     <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">1</param>
+                    <param id="1" name="X co-ordinate">0</param>
                 </condition>
             </conditions>
             <actions>
@@ -35,12 +35,7 @@
             <conditions>
                 <condition id="-3" name="On end of layout" sid="2526200964938829" type="System" />
             </conditions>
-            <actions>
-                <action id="-9" name="Set value" sid="2779781845715997" type="System">
-                    <param id="0" name="Variable">Start</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>

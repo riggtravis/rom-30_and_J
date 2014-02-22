@@ -18,12 +18,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>j14</layout>
         <layout>j15(GPS)</layout>
         <layout>level 12</layout>
-        <event-sheet active="1">ROMplay</event-sheet>
+        <event-sheet>ROMplay</event-sheet>
         <event-sheet>Select</event-sheet>
         <event-sheet>Jplay</event-sheet>
         <event-sheet>r13</event-sheet>
         <event-sheet>r14</event-sheet>
-        <event-sheet>r15</event-sheet>
+        <event-sheet active="1">r15</event-sheet>
         <event-sheet>j13</event-sheet>
         <event-sheet>j14</event-sheet>
         <event-sheet>j15</event-sheet>
