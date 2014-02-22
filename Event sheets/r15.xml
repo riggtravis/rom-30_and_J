@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>r15</name>
     <events>
+        <include>Slime</include>
         <include>ROMplay</include>
         <event-block sid="5239009604528605">
             <conditions>

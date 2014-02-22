@@ -97,10 +97,7 @@
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
                         </behavior-instance>
-<<<<<<< HEAD
                         <behavior-instance type="Persist" />
-=======
->>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>

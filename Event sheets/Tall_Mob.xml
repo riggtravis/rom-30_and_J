@@ -3,13 +3,25 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Tall_Mob</name>
     <events>
-        <event-block any="1" sid="724378930180208">
+        <event-block any="1" sid="4539919960778794">
             <conditions>
-                <condition id="-3" name="Is on-screen" sid="7416147749387468" type="Tall_Mob" />
+                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="8680953956094161" type="Tall_Mob">
+                    <param id="0" name="Object">ROM30</param>
+                </condition>
+                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="2078364589140706" type="Tall_Mob">
+                    <param id="0" name="Object">J</param>
+                </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="6580598340335548" type="Tall_Mob">
+                <action id="4" name="Set animation" sid="9675257581107804" type="Tall_Mob">
                     <param id="0" name="Animation">&quot;Attack&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="6916987630490168" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="4" name="Set animation" sid="4036333757685728" type="Tall_Mob">
+                    <param id="0" name="Animation">&quot;Retreat&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>

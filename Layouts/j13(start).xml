@@ -244,7 +244,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SolidTile" uid="6">
+                <instance type="SolidTile" uid="32">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -288,7 +288,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Text" uid="32">
+                <instance type="Text" uid="33">
                     <properties>
                         <text>Arrow keys or WSAD to move</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -315,7 +315,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Current" uid="33">
+                <instance type="Current" uid="51">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
