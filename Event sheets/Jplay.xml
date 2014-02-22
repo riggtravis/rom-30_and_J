@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Jplay</name>
+    <events>
+        <event-block sid="3231033161590552">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="7954519995822246" type="Keyboard">
+                    <param id="0" name="Key">40 (Down arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="12" name="Fall through" sid="6504872169942629" type="J" />
+            </actions>
+        </event-block>
+        <event-block any="1" sid="1723165231013912">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="1449094129696359" type="Keyboard">
+                    <param id="0" name="Key">88 (X)</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="17201196214212" type="Keyboard">
+                    <param id="0" name="Key">87 (W)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="5600944107432867" type="J">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3269886121921615">
+            <conditions>
+                <condition id="2" name="Key is down" sid="817833208762504" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="8292340841513178" type="J">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2470971102350613">
+            <conditions>
+                <condition id="2" name="Key is down" sid="5939510529330568" type="Keyboard">
+                    <param id="0" name="Key">83 (S)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="12" name="Fall through" sid="4260900557057778" type="J" />
+            </actions>
+        </event-block>
+        <event-block sid="8284615334846244">
+            <conditions>
+                <condition id="2" name="Key is down" sid="6552094834702079" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="8370717711092157" type="J">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Mirror the player&apos;s image so they appear facing the right way when moving left or right.</comment>
+        <event-block any="1" sid="3583044719267232">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="3974183263106727" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+                <condition id="0" name="On key pressed" sid="6415714391905992" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="5917805933874104" type="J">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="9170148636757947" type="J">
+                    <param id="0" name="Animation">&quot;run&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="2127843349673061">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="5855219139419474" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+                <condition id="0" name="On key pressed" sid="2852224652613697" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="9935711483004658" type="J">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="6296140430142958" type="J">
+                    <param id="0" name="Animation">&quot;run&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>If the player falls off the bottom of the layout, restart the level.</comment>
+        <event-block sid="2882869782349997">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="1989144656511162" type="J">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">LayoutHeight</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="872478308420494" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="1751851260356753">
+            <conditions>
+                <condition behavior="Platform" id="3" name="Is jumping" sid="6636516471103924" type="J" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6684844629107201" type="J">
+                    <param id="0" name="Animation">&quot;inair&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1537732307198694">
+            <conditions>
+                <condition behavior="Platform" id="7" name="On stopped" sid="5083626516657868" type="J" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6731306120407239" type="J">
+                    <param id="0" name="Animation">&quot;stand&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4867899536871314">
+            <conditions>
+                <condition behavior="Platform" id="9" name="On landed" sid="2453670747860617" type="J" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="8507989370112372" type="J">
+                    <param id="0" name="Animation">&quot;stand&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9567696458951623">
+            <conditions>
+                <condition id="-18" name="On created" sid="4401044980855627" type="Current" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="2021251324169983" type="Current">
+                    <param id="0" name="Pin to">J</param>
+                    <param id="1" name="Mode">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4260104832705158">
+            <conditions>
+                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="1874552894325036" type="J">
+                    <param id="0" name="Object">ROMchoice</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="20388536999868" type="Current">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7613845879676763">
+            <conditions>
+                <condition behavior="LineOfSight" id="0" inverted="1" name="Has LOS to object" sid="4692775546226194" type="J">
+                    <param id="0" name="Object">ROMchoice</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="7337904605052226" type="Current">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9127886525573179">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="7847214944626231" type="Text" />
+            </conditions>
+            <actions>
+                <action behavior="Jumpthru" id="0" name="Set enabled" sid="3425425601186288" type="JumpThruTile">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Tall_Mob</name>
+    <events>
+        <event-block any="1" sid="724378930180208">
+            <conditions>
+                <condition id="-3" name="Is on-screen" sid="7416147749387468" type="Tall_Mob" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6580598340335548" type="Tall_Mob">
+                    <param id="0" name="Animation">&quot;Attack&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
