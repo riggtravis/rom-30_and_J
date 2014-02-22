@@ -17,6 +17,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>r15(GPS)</layout>
         <layout>j14</layout>
         <layout>j15(GPS)</layout>
+        <layout>level 12</layout>
         <event-sheet>ROMplay</event-sheet>
         <event-sheet>Select</event-sheet>
         <event-sheet>Jplay</event-sheet>
@@ -26,8 +27,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet>j13</event-sheet>
         <event-sheet>j14</event-sheet>
         <event-sheet>j15</event-sheet>
-        <event-sheet active="1">Tall_Mob</event-sheet>
+        <event-sheet>Tall_Mob</event-sheet>
         <event-sheet>Slime</event-sheet>
+        <event-sheet active="1">level 12</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

@@ -1,0 +1,67 @@
+{ "height":7,
+ "layers":[
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":7,
+         "name":"Background",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":12,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 136, 127, 129, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 45, 45, 45, 45, 45, 105, 0, 0, 0, 0, 0, 0, 65, 65, 65, 65, 65, 117, 105, 0, 0, 0, 0, 0, 65, 65, 65, 65, 65, 65, 117, 45, 45, 45, 45, 33],
+         "height":7,
+         "name":"Ground",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":12,
+         "x":0,
+         "y":0
+        }],
+ "orientation":"orthogonal",
+ "properties":
+    {
+
+    },
+ "tileheight":70,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "image":"..\/Assets\/Kenney\/Base pack\/bg.png",
+         "imageheight":256,
+         "imagewidth":256,
+         "margin":0,
+         "name":"Background",
+         "properties":
+            {
+
+            },
+         "spacing":0,
+         "tileheight":70,
+         "tilewidth":70,
+         "transparentcolor":"#ff11b4"
+        }, 
+        {
+         "firstgid":10,
+         "image":"..\/Assets\/Kenney\/Base pack\/Tiles\/tiles_spritesheet.png",
+         "imageheight":936,
+         "imagewidth":914,
+         "margin":0,
+         "name":"tiles_spritesheet",
+         "properties":
+            {
+
+            },
+         "spacing":2,
+         "tileheight":70,
+         "tilewidth":70,
+         "transparentcolor":"#ff11b4"
+        }],
+ "tilewidth":70,
+ "version":1,
+ "width":12
+}

@@ -15,6 +15,7 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
@@ -36,16 +37,16 @@
         <width>800</width>
         <height>480</height>
     </window-size>
-    <pixel-rounding>0</pixel-rounding>
+    <pixel-rounding>1</pixel-rounding>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
         <prop name="Enable WebGL">On</prop>
-        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen in browser">Letterbox integer scale</prop>
         <prop name="Hide address bar">No</prop>
         <prop name="Loader style">Progress bar &amp; logo</prop>
         <prop name="Preview browser">(default)</prop>
-        <prop name="Sampling">Linear</prop>
+        <prop name="Sampling">Point</prop>
         <prop name="Use iOS retina display">All devices</prop>
     </configuration-settings>
     <object-folder expanded="1">
@@ -53,7 +54,7 @@
             <plugin id="TiledBg" />
             <texture />
         </object-type>
-        <object-type name="ROM30" sid="1911974471808503">
+        <object-type global="1" name="ROM30" sid="1911974471808503">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Platform" sid="8997998810874416">
@@ -974,6 +975,55 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="LVL12" sid="472787678082555">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="6974893256754742">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+            <tiles>
+                <tile id="30">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="0.996429" y="0.567857" />
+                        <point x="0" y="0.567857" />
+                    </collision-poly>
+                </tile>
+                <tile id="31">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.575" />
+                        <point x="0" y="0.575" />
+                    </collision-poly>
+                </tile>
+                <tile id="32">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="0.996429" y="0.575" />
+                        <point x="0" y="0.575" />
+                    </collision-poly>
+                </tile>
+                <tile id="53">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="66">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+            </tiles>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
@@ -987,6 +1037,7 @@
         <layout>r14(bottom).xml</layout>
         <layout>r15(GPS).xml</layout>
         <layout>Jplay.xml</layout>
+        <layout>level 12.xml</layout>
     </layout-folder>
     <event-folder expanded="1">
         <event-sheet>ROMplay.xml</event-sheet>
@@ -1000,6 +1051,7 @@
         <event-sheet>j15.xml</event-sheet>
         <event-sheet>Tall_Mob.xml</event-sheet>
         <event-sheet>Slime.xml</event-sheet>
+        <event-sheet>level 12.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="138" />

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>level 12</name>
+    <events>
+        <include>Jplay</include>
+        <include>ROMplay</include>
+        <event-block sid="2314623881583207">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4884952897241052" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="9128309347762992">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="4523574085298413" type="ROM30">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">840</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="2405751694707848" type="System">
+                    <param id="0" name="Layout">&quot;r13(start)&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="1700428049059991" type="ROM30">
+                    <param id="0" name="X">35</param>
+                    <param id="1" name="Y">360</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
