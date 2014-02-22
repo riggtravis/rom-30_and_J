@@ -926,56 +926,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-<<<<<<< HEAD
-        <object-type name="LVL12" sid="472787678082555">
-            <plugin id="Tilemap" />
-            <behaviors>
-                <behavior-type name="Solid" sid="6974893256754742">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <texture />
-            <tiles>
-                <tile id="30">
-                    <collision-poly>
-                        <point x="0" y="0" />
-                        <point x="1" y="0" />
-                        <point x="0.996429" y="0.567857" />
-                        <point x="0" y="0.567857" />
-                    </collision-poly>
-                </tile>
-                <tile id="31">
-                    <collision-poly>
-                        <point x="0" y="0" />
-                        <point x="1" y="0" />
-                        <point x="1" y="0.575" />
-                        <point x="0" y="0.575" />
-                    </collision-poly>
-                </tile>
-                <tile id="32">
-                    <collision-poly>
-                        <point x="0" y="0" />
-                        <point x="1" y="0" />
-                        <point x="0.996429" y="0.575" />
-                        <point x="0" y="0.575" />
-                    </collision-poly>
-                </tile>
-                <tile id="53">
-                    <collision-poly>
-                        <point x="0" y="0" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-                <tile id="66">
-                    <collision-poly>
-                        <point x="0" y="0" />
-                        <point x="1" y="1" />
-                        <point x="0" y="1" />
-                    </collision-poly>
-                </tile>
-            </tiles>
-=======
         <object-type name="BlockingTile" sid="8819364282492271">
             <plugin id="Sprite" />
             <behaviors>
@@ -996,7 +946,50 @@
                     </frame>
                 </animation>
             </animation-folder>
->>>>>>> 3abbd8c8eb5c554a0f3a65ba7e367f2d2e5fa3f0
+        </object-type>
+        <object-type name="room12" sid="7653520559632753">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles>
+                <tile id="30">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.571428" />
+                        <point x="0" y="0.571429" />
+                    </collision-poly>
+                </tile>
+                <tile id="31">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="0.996429" y="0.571429" />
+                        <point x="0" y="0.567857" />
+                    </collision-poly>
+                </tile>
+                <tile id="32">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.571429" />
+                        <point x="0.00714286" y="0.571429" />
+                    </collision-poly>
+                </tile>
+                <tile id="53">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="66">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+            </tiles>
         </object-type>
     </object-folder>
     <families />
@@ -1028,7 +1021,7 @@
         <event-sheet>level 12.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="138" />
+        <global-instance type="Keyboard" uid="140" />
     </global-instances>
     <sounds-folder expanded="1" />
     <music-folder expanded="1" />
