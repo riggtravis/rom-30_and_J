@@ -59,15 +59,5 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="5468014449785273">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="9779486833954696" type="System" />
-            </conditions>
-            <actions>
-                <action id="-2" name="Set Y" sid="1854083387935665" type="ROM30">
-                    <param id="0" name="Y">ROM30.Y+100</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>
