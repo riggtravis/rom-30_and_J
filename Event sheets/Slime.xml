@@ -6,49 +6,70 @@
         <event-block sid="1471672765472874">
             <conditions>
                 <condition id="-8" name="Is boolean instance variable set" sid="2772413311827634" type="Slime">
-                    <param id="0" name="Instance variable">Move</param>
+                    <param id="0" name="Instance variable">Left</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="9923013737540728" type="Slime">
-                    <param id="0" name="Animation">&quot;Walk&quot;</param>
+                <action behavior="Platform" id="7" name="Simulate control" sid="1467463560032262" type="Slime">
+                    <param id="0" name="Control">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="5784880883869659" type="Slime">
+                    <param id="0" name="Animation">&quot;walk&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
-                <action id="-17" name="Move forward" sid="4247637847569035" type="Slime">
-                    <param id="0" name="Distance">-15</param>
+                <action id="7" name="Set mirrored" sid="8619924051002443" type="Slime">
+                    <param id="0" name="State">1</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="7541926897909298" type="Slime">
-                    <param id="0" name="Instance variable">Move</param>
-                    <param id="1" name="Value">0</param>
+            </actions>
+        </event-block>
+        <event-block sid="3022471533348324">
+            <conditions>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6601205373287586" type="Slime">
+                    <param id="0" name="Instance variable">Left</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="5559799928311418" type="Slime">
+                    <param id="0" name="Control">1</param>
                 </action>
-                <action id="-16" name="Wait" sid="8227691391091787" type="System">
-                    <param id="0" name="Seconds">3.0</param>
+                <action id="4" name="Set animation" sid="7390931059525651" type="Slime">
+                    <param id="0" name="Animation">&quot;walk&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="6888526597418208" type="Slime">
-                    <param id="0" name="Instance variable">Move</param>
-                    <param id="1" name="Value">1</param>
+                <action id="7" name="Set mirrored" sid="1516397225715739" type="Slime">
+                    <param id="0" name="State">0</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="4115464532463929">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="6746163714009662" type="Slime">
-                    <param id="0" name="Object">SolidTile</param>
+                    <param id="0" name="Object">BlockingTile</param>
                 </condition>
             </conditions>
             <actions />
             <sub-events>
                 <event-block sid="7568952512982215">
                     <conditions>
-                        <condition id="7" name="Is mirrored" sid="4338728611029186" type="Slime" />
-                        <condition id="7" inverted="1" name="Is mirrored" sid="7623315553908913" type="Slime" />
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4338728611029186" type="Slime">
+                            <param id="0" name="Instance variable">Left</param>
+                        </condition>
                     </conditions>
                     <actions>
-                        <action id="7" name="Set mirrored" sid="9724101697228843" type="Slime">
-                            <param id="0" name="State">1</param>
+                        <action id="-13" name="Set boolean" sid="4346443436715327" type="Slime">
+                            <param id="0" name="Instance variable">Left</param>
+                            <param id="1" name="Value">1</param>
                         </action>
-                        <action id="7" name="Set mirrored" sid="7884134373693704" type="Slime">
-                            <param id="0" name="State">0</param>
+                    </actions>
+                </event-block>
+                <event-block sid="7850571645071515">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5532244500255535" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="1255377427378817" type="Slime">
+                            <param id="0" name="Instance variable">Left</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                     </actions>
                 </event-block>

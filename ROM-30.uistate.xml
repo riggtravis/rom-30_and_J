@@ -26,8 +26,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet>j13</event-sheet>
         <event-sheet>j14</event-sheet>
         <event-sheet>j15</event-sheet>
-        <event-sheet active="1">Tall_Mob</event-sheet>
-        <event-sheet>Slime</event-sheet>
+        <event-sheet>Tall_Mob</event-sheet>
+        <event-sheet active="1">Slime</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
