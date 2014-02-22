@@ -32,13 +32,6 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="4990982151879691" type="System">
-<<<<<<< HEAD
-                    <param id="0" name="Layout">j13(start)</param>
-=======
-                    <param id="0" name="Layout">Jplay</param>
->>>>>>> 98410feeaee442298c9c76083fb54d8a15f2ec3a
-                </action>
             </actions>
         </event-block>
     </events>

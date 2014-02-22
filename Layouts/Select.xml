@@ -243,8 +243,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD
-=======
                 <instance type="Tall_Mob" uid="90">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
