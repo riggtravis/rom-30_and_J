@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>j14</name>
+    <events>
+        <include>Jplay</include>
+        <event-block sid="3514426823960262">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="123521759326085" type="J" />
+                <condition id="-1" name="Compare X" sid="161082346295015" type="J">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8168438784237215" type="System">
+                    <param id="0" name="Layout">j13(start)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9160696431916069">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="953187119280919" type="J">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">480</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8251912306745711" type="System">
+                    <param id="0" name="Layout">r15(GPS)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3639404480492951">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2234847434391847" type="System" />
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="8573763056659804" type="J">
+                    <param id="0" name="X">J.X+30</param>
+                </action>
+                <action id="-2" name="Set Y" sid="1464739080956512" type="J">
+                    <param id="0" name="Y">J.Y+90</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
