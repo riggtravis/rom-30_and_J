@@ -30,6 +30,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet>Tall_Mob</event-sheet>
         <event-sheet>Slime</event-sheet>
         <event-sheet active="1">level 12</event-sheet>
+        <event-sheet active="1">Slime</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
