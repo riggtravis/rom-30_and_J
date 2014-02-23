@@ -949,6 +949,11 @@
         </object-type>
         <object-type name="room12" sid="7653520559632753">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3956295164377518">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="30">
@@ -1032,6 +1037,11 @@
         </object-type>
         <object-type name="room11" sid="9727386441062726">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1728432853720438">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="3">
@@ -1137,6 +1147,11 @@
         </object-type>
         <object-type name="room7" sid="7056674325077086">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="2087550263206496">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="53">
@@ -1193,6 +1208,11 @@
         </object-type>
         <object-type name="room8" sid="1134592823695394">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="7355702378590867">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="51">
@@ -1230,6 +1250,11 @@
         </object-type>
         <object-type name="room9_energycrystal" sid="6539787381423391">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="2863667755287505">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="34">
@@ -1274,6 +1299,11 @@
         </object-type>
         <object-type name="room6" sid="3156157094327775">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="2443864098103131">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="39">
@@ -1300,6 +1330,11 @@
         </object-type>
         <object-type name="room5" sid="472381973756652">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9806499734300354">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="16">
@@ -1333,6 +1368,11 @@
         </object-type>
         <object-type name="room4" sid="787670100197529">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9686922077319682">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="36">
@@ -1346,6 +1386,11 @@
         </object-type>
         <object-type name="room3" sid="5072984107039462">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1361753802658518">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="39">
@@ -1377,6 +1422,11 @@
         </object-type>
         <object-type name="room2" sid="8812371436952798">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="2484981693856481">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="14">
@@ -1414,6 +1464,11 @@
         </object-type>
         <object-type name="room1_beer" sid="9882585686944293">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3124270635540092">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="31">
