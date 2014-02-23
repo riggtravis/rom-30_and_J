@@ -1454,9 +1454,11 @@
         <layout>Select.xml</layout>
         <layout>r13(start).xml</layout>
         <layout>r14.xml</layout>
-        <layout>j14.xml</layout>
-        <layout>j15(GPS).xml</layout>
         <layout>j13(start).xml</layout>
+<<<<<<< HEAD
+=======
+        <layout>r13(right).xml</layout>
+>>>>>>> 8c9c5242772945c46ff2f1127f5b31ac09514d1a
         <layout>r15(GPS).xml</layout>
         <layout>Jplay.xml</layout>
         <layout>room-12.xml</layout>
