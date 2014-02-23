@@ -10,7 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout>r13(start)</layout>
+        <layout active="1">r13(start)</layout>
         <layout>Select</layout>
         <layout>j13(start)</layout>
         <layout>r14</layout>
