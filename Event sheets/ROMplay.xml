@@ -220,5 +220,65 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-block sid="5694149173224464">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9248070565542224" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="2927051114795069">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="2430890272063385" type="ROM30">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="X co-ordinate">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="9729007420608128" type="ROM30">
+                            <param id="0" name="X">800</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2370088886970604">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="9297404126019076" type="ROM30">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="X co-ordinate">800</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="3967472384641856" type="ROM30">
+                            <param id="0" name="X">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2530304617195556">
+                    <conditions>
+                        <condition id="-2" name="Compare Y" sid="5838660785231717" type="ROM30">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="Y co-ordinate">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="5544774866844055" type="ROM30">
+                            <param id="0" name="Y">480</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4134461414612429">
+                    <conditions>
+                        <condition id="-2" name="Compare Y" sid="1731488313596479" type="ROMchoice">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="Y co-ordinate">480</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="5041882473759876" type="ROM30">
+                            <param id="0" name="Y">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>

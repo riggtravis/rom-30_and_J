@@ -16,27 +16,26 @@
                 <action id="-2" name="Go to layout" sid="8248255571205368" type="System">
                     <param id="0" name="Layout">r14</param>
                 </action>
-                <action id="-1" name="Set X" sid="5815710883278342" type="ROM30">
-                    <param id="0" name="X">750</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="3507568719220219">
             <conditions>
                 <condition id="-1" name="Compare X" sid="8007301357614759" type="ROM30">
                     <param id="0" name="Comparison">2</param>
-                    <param id="1" name="X co-ordinate">1</param>
+                    <param id="1" name="X co-ordinate">0</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-25" name="Go to layout (by name)" sid="299682658914212" type="System">
                     <param id="0" name="Layout">&quot;level 12&quot;</param>
                 </action>
-                <action id="-3" name="Set position" sid="3367395685552034" type="ROM30">
-                    <param id="0" name="X">750</param>
-                    <param id="1" name="Y">390</param>
-                </action>
             </actions>
+        </event-block>
+        <event-block sid="8973462768091619">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="2526200964938829" type="System" />
+            </conditions>
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>

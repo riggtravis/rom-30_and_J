@@ -31,7 +31,11 @@
                     <param id="2" name="Second value">distance(Jchoice.X, Jchoice.Y, Choice.X, Choice.Y)</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-2" name="Go to layout" sid="8796993900012379" type="System">
+                    <param id="0" name="Layout">j13(start)</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
