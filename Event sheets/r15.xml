@@ -7,10 +7,7 @@
         <include>ROMplay</include>
         <event-block sid="5239009604528605">
             <conditions>
-                <condition id="-2" name="Compare Y" sid="1010206275637905" type="ROM30">
-                    <param id="0" name="Comparison">2</param>
-                    <param id="1" name="Y co-ordinate">0</param>
-                </condition>
+                <condition id="-4" name="Is outside layout" sid="1010206275637905" type="ROM30" />
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="4484415287562209" type="System">
@@ -61,6 +58,16 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="5468014449785273">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9779486833954696" type="System" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="1854083387935665" type="ROM30">
+                    <param id="0" name="Y">ROM30.Y+100</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

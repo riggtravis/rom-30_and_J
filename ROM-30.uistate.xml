@@ -11,25 +11,25 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout>r13(start)</layout>
-        <layout>Select</layout>
-        <layout>j13(start)</layout>
-        <layout>r14</layout>
-        <layout>r15(GPS)</layout>
-        <layout>j14</layout>
-        <layout>j15(GPS)</layout>
-        <layout>level 12</layout>
+        <layout active="1">Select</layout>
+        <layout>room-12</layout>
+        <layout>room-10(datasheet)</layout>
+        <layout>room-11</layout>
+        <layout>room-7</layout>
+        <layout>room-8</layout>
+        <layout>room-9(energy crystal)</layout>
+        <layout>room-6</layout>
+        <layout>room-5</layout>
+        <layout>room-4</layout>
+        <layout>room-3</layout>
+        <layout>room-2</layout>
+        <layout>room-1(beer)</layout>
         <event-sheet>ROMplay</event-sheet>
         <event-sheet>Select</event-sheet>
         <event-sheet>Jplay</event-sheet>
         <event-sheet>r13</event-sheet>
-        <event-sheet>r14</event-sheet>
-        <event-sheet active="1">r15</event-sheet>
-        <event-sheet>j13</event-sheet>
-        <event-sheet>j14</event-sheet>
-        <event-sheet>j15</event-sheet>
-        <event-sheet>Tall_Mob</event-sheet>
-        <event-sheet>Slime</event-sheet>
         <event-sheet>level 12</event-sheet>
+        <event-sheet>rooms</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
