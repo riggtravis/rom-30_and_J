@@ -235,7 +235,7 @@
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" sid="9729007420608128" type="ROM30">
-                            <param id="0" name="X">800</param>
+                            <param id="0" name="X">840</param>
                         </action>
                     </actions>
                 </event-block>
@@ -261,7 +261,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Set Y" sid="5544774866844055" type="ROM30">
-                            <param id="0" name="Y">480</param>
+                            <param id="0" name="Y">490</param>
                         </action>
                     </actions>
                 </event-block>

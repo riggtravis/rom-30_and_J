@@ -4,8 +4,8 @@
     <sid>6101396941637415</sid>
     <event-sheet>Select</event-sheet>
     <size>
-        <width>800</width>
-        <height>480</height>
+        <width>840</width>
+        <height>490</height>
     </size>
     <margins>
         <horizontal>0</horizontal>
@@ -38,8 +38,8 @@
                         <x>0</x>
                         <y>0</y>
                         <z>0</z>
-                        <width>800</width>
-                        <height>480</height>
+                        <width>840</width>
+                        <height>490</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -82,8 +82,8 @@
                         <x>0</x>
                         <y>448</y>
                         <z>0</z>
-                        <width>800</width>
-                        <height>32</height>
+                        <width>864</width>
+                        <height>64</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -131,7 +131,7 @@
                         <x>0</x>
                         <y>0</y>
                         <z>0</z>
-                        <width>800</width>
+                        <width>864</width>
                         <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
