@@ -1946,6 +1946,8 @@
         <event-sheet>room-12.xml</event-sheet>
         <event-sheet>Start.xml</event-sheet>
         <event-sheet>room-10.xml</event-sheet>
+        <event-sheet>room-11.xml</event-sheet>
+        <event-sheet>room-7.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="140" />
