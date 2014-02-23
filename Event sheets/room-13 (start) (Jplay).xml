@@ -4,15 +4,29 @@
     <name>room-13 (start) (Jplay)</name>
     <events>
         <include>Jplay</include>
-        <event-block sid="1644365423458116">
+        <event-block sid="3159572061698798">
             <conditions>
-                <condition id="2" name="Key is down" sid="9799950337692526" type="Keyboard">
-                    <param id="0" name="Key">37 (Left arrow)</param>
+                <condition id="-1" name="Compare X" sid="3884695988183496" type="J">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">890</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="7" name="Set mirrored" sid="7314051095493305" type="J">
-                    <param id="0" name="State">0</param>
+                <action id="-2" name="Go to layout" sid="9144618655638393" type="System">
+                    <param id="0" name="Layout">room-14</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="870641989247662">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="9353035773416976" type="J">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4199930577718181" type="System">
+                    <param id="0" name="Layout">room-12</param>
                 </action>
             </actions>
         </event-block>

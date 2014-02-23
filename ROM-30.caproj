@@ -1827,6 +1827,12 @@
         <event-sheet>room-11.xml</event-sheet>
         <event-sheet>room-7.xml</event-sheet>
         <event-sheet>room-9 (energy crystal).xml</event-sheet>
+        <event-sheet>room-1 (beer).xml</event-sheet>
+        <event-sheet>room-2.xml</event-sheet>
+        <event-sheet>room-3.xml</event-sheet>
+        <event-sheet>room-4.xml</event-sheet>
+        <event-sheet>room-5.xml</event-sheet>
+        <event-sheet>room-6.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="140" />
