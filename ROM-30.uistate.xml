@@ -10,36 +10,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
+        <layout>Jellominer</layout>
         <layout>r13(start)</layout>
-        <layout>Select</layout>
-        <layout>j13(start)</layout>
-        <layout>r14</layout>
-        <layout>r15(GPS)</layout>
-        <layout active="1">room-10(datasheet)</layout>
-        <layout>room-11</layout>
-        <layout>room-7</layout>
-        <layout>room-8</layout>
-        <layout>room-9(energy crystal)</layout>
-        <layout>room-6</layout>
-        <layout>room-5</layout>
-        <layout>room-4</layout>
-        <layout>room-3</layout>
-        <layout>room-2</layout>
-        <layout>room-1(beer)</layout>
-        <layout>room-12</layout>
-        <event-sheet>ROMplay</event-sheet>
-        <event-sheet>Select</event-sheet>
-        <event-sheet>Jplay</event-sheet>
-        <event-sheet>r13</event-sheet>
-        <event-sheet>r14</event-sheet>
-        <event-sheet>r15</event-sheet>
-        <event-sheet>j13</event-sheet>
-        <event-sheet>j14</event-sheet>
-        <event-sheet>j15</event-sheet>
-        <event-sheet>Tall_Mob</event-sheet>
-        <event-sheet>Slime</event-sheet>
-        <event-sheet>room-12</event-sheet>
-        <event-sheet>rooms</event-sheet>
+        <layout>room-18</layout>
+        <layout>room-19</layout>
+        <layout>room-20</layout>
+        <layout>room-21</layout>
+        <layout>room-22</layout>
+        <layout>room-23</layout>
+        <layout>room-24</layout>
+        <layout>room-25</layout>
+        <layout active="1">room-26</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="12" height="9" tilewidth="70" tileheight="70">
+<map version="1.0" orientation="orthogonal" width="12" height="7" tilewidth="70" tileheight="70">
  <tileset firstgid="1" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2">
   <image source="../Assets/Kenney/Base pack/Tiles/tiles_spritesheet.png" width="914" height="936"/>
  </tileset>
@@ -15,9 +15,9 @@
  <tileset firstgid="160" name="stoneMid3" tilewidth="70" tileheight="70" spacing="2">
   <image source="../Assets/Kenney/Base pack/Tiles/stoneMid3.png" width="70" height="70"/>
  </tileset>
- <layer name="Tile Layer 1" width="12" height="9">
+ <layer name="Tile Layer 1" width="12" height="7">
   <data encoding="base64" compression="zlib">
-   eJybz8DAsIAEPJeBNEAt9ZokqNcGYi8glieg3h6qrg2Ik4G4CspXJ8I9uACp6mF2EosBoz4SjQ==
+   eJybz8DAsIAEPJeBNECuek0S1eeTqJ5YUAXEXiRgADwUDtE=
   </data>
  </layer>
 </map>

@@ -1641,16 +1641,283 @@
                 </tile>
             </tiles>
         </object-type>
+        <object-type name="Jellominer" sid="7954942642427755">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles />
+        </object-type>
+        <object-type name="room18" sid="4469691894366819">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles>
+                <tile id="8">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.578571" />
+                        <point x="0" y="0.575" />
+                    </collision-poly>
+                </tile>
+                <tile id="38">
+                    <collision-poly>
+                        <point x="0" y="0.635714" />
+                        <point x="1" y="0.628572" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+            </tiles>
+        </object-type>
+        <object-type name="room19" sid="1639506980786981">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles>
+                <tile id="23">
+                    <collision-poly>
+                        <point x="1" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="40">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.575" />
+                        <point x="0" y="0.575" />
+                    </collision-poly>
+                </tile>
+                <tile id="44">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.567857" />
+                        <point x="0" y="0.571428" />
+                    </collision-poly>
+                </tile>
+                <tile id="45">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.571428" />
+                        <point x="0" y="0.567857" />
+                    </collision-poly>
+                </tile>
+            </tiles>
+        </object-type>
+        <object-type name="room20" sid="5377564801091862">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles>
+                <tile id="4">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.582143" />
+                        <point x="0" y="0.575" />
+                    </collision-poly>
+                </tile>
+                <tile id="5">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.571428" />
+                        <point x="0" y="0.567857" />
+                    </collision-poly>
+                </tile>
+                <tile id="8">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.575" />
+                        <point x="0" y="0.571429" />
+                    </collision-poly>
+                </tile>
+                <tile id="65">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+            </tiles>
+        </object-type>
+        <object-type name="room21" sid="9301013089925172">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles>
+                <tile id="8">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.567857" />
+                        <point x="0" y="0.564286" />
+                    </collision-poly>
+                </tile>
+            </tiles>
+        </object-type>
+        <object-type name="room22" sid="7652979286667239">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles>
+                <tile id="1">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.575" />
+                        <point x="0" y="0.578571" />
+                    </collision-poly>
+                </tile>
+                <tile id="60">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0.760714" y="0.982143" />
+                        <point x="0.507589" y="0.923884" />
+                        <point x="0.283036" y="0.812054" />
+                        <point x="0.108929" y="0.663393" />
+                        <point x="0" y="0.4375" />
+                    </collision-poly>
+                </tile>
+                <tile id="61">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.446428" />
+                        <point x="0.89788" y="0.642299" />
+                        <point x="0.745759" y="0.798884" />
+                        <point x="0.552232" y="0.890625" />
+                        <point x="0.390178" y="0.941964" />
+                        <point x="0.201786" y="0.973214" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+            </tiles>
+        </object-type>
+        <object-type name="room23" sid="5861532450125929">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles />
+        </object-type>
+        <object-type name="room24" sid="7134182443485144">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles>
+                <tile id="46">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0.657143" y="1" />
+                        <point x="0.585714" y="0.851786" />
+                        <point x="0.45" y="0.679464" />
+                        <point x="0.278571" y="0.514732" />
+                        <point x="0.107143" y="0.403795" />
+                        <point x="0" y="0.341183" />
+                    </collision-poly>
+                </tile>
+            </tiles>
+        </object-type>
+        <object-type name="room25" sid="9616360800067662">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles>
+                <tile id="0">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.567857" />
+                        <point x="0" y="0.567857" />
+                    </collision-poly>
+                </tile>
+                <tile id="61">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.335714" />
+                        <point x="0.865848" y="0.417745" />
+                        <point x="0.710268" y="0.531919" />
+                        <point x="0.577678" y="0.649553" />
+                        <point x="0.430357" y="0.83125" />
+                        <point x="0.335714" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+            </tiles>
+        </object-type>
+        <object-type name="room26" sid="4327606010252643">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles>
+                <tile id="4">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.567857" />
+                        <point x="0" y="0.571428" />
+                    </collision-poly>
+                </tile>
+                <tile id="54">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0.625" y="0.95" />
+                        <point x="0.427679" y="0.884152" />
+                        <point x="0.226786" y="0.771875" />
+                        <point x="0.0678571" y="0.608036" />
+                        <point x="0" y="0.419643" />
+                    </collision-poly>
+                </tile>
+                <tile id="55">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.446428" />
+                        <point x="0.958259" y="0.562612" />
+                        <point x="0.895089" y="0.646652" />
+                        <point x="0.790178" y="0.761161" />
+                        <point x="0.548214" y="0.900893" />
+                        <point x="0.278571" y="0.969643" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="69">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0.657143" y="1" />
+                        <point x="0.610603" y="0.889174" />
+                        <point x="0.510491" y="0.749777" />
+                        <point x="0.356696" y="0.588839" />
+                        <point x="0.191964" y="0.452679" />
+                        <point x="0" y="0.344643" />
+                    </collision-poly>
+                </tile>
+            </tiles>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
         <layout>Select.xml</layout>
         <layout>r13(start).xml</layout>
+        <layout>j13.xml</layout>
         <layout>r14.xml</layout>
-        <layout>j13(start).xml</layout>
         <layout>r15(GPS).xml</layout>
         <layout>room-10(datasheet).xml</layout>
         <layout>room-12.xml</layout>
+        <layout>Jellominer.xml</layout>
+        <layout>room-18.xml</layout>
+        <layout>room-19.xml</layout>
+        <layout>room-20.xml</layout>
+        <layout>room-21.xml</layout>
+        <layout>room-22.xml</layout>
+        <layout>room-23.xml</layout>
+        <layout>room-24.xml</layout>
+        <layout>room-25.xml</layout>
+        <layout>room-26.xml</layout>
         <layout>room-11.xml</layout>
         <layout>room-7.xml</layout>
         <layout>room-8.xml</layout>

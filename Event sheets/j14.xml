@@ -12,11 +12,7 @@
                     <param id="1" name="X co-ordinate">0</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="8168438784237215" type="System">
-                    <param id="0" name="Layout">j13(start)</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
         <event-block sid="9160696431916069">
             <conditions>
