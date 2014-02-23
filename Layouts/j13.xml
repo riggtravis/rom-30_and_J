@@ -114,13 +114,8 @@
                         <behavior-instance type="LineOfSight">
                             <properties>
                                 <obstacles>Solids</obstacles>
-<<<<<<< HEAD:Layouts/j13.xml
-                                <range>10000</range>
-                                <cone-of-view>360</cone-of-view>
-=======
                                 <range>200</range>
                                 <cone-of-view>180</cone-of-view>
->>>>>>> faa3d435892740f39baf5f01a8e597fa64357aac:Layouts/j13(start).xml
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
                         </behavior-instance>
