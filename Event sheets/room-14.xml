@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>room-14</name>
     <events>
+        <include>Jplay</include>
         <include>ROMplay</include>
         <event-block sid="7781486901020934">
             <conditions>

@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>room-15 (GPS)</name>
     <events>
+        <include>Jplay</include>
         <include>Slime</include>
         <include>ROMplay</include>
         <event-block sid="5239009604528605">
