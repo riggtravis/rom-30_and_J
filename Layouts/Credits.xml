@@ -27,7 +27,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Text" uid="28">
+                <instance type="Text" uid="69">
                     <properties>
                         <text>Cody Ferguson</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -54,7 +54,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="29">
+                <instance type="Text" uid="70">
                     <properties>
                         <text>Travis Rigg</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -81,7 +81,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="34">
+                <instance type="Text" uid="71">
                     <properties>
                         <text>Kenney Wings</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -108,7 +108,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="35">
+                <instance type="Text" uid="73">
                     <properties>
                         <text>Jellominer</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -135,7 +135,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="36">
+                <instance type="Text" uid="74">
                     <properties>
                         <text>Moobals</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -162,7 +162,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="37">
+                <instance type="Text" uid="75">
                     <properties>
                         <text>Bigdad1630</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -189,7 +189,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="38">
+                <instance type="Text" uid="76">
                     <properties>
                         <text>José Paulo</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -216,7 +216,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="39">
+                <instance type="Text" uid="77">
                     <properties>
                         <text>Art</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -243,7 +243,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="40">
+                <instance type="Text" uid="78">
                     <properties>
                         <text>Slappy Butt Tribe</text>
                         <initial-visibility>Visible</initial-visibility>

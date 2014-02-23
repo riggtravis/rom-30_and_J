@@ -18,5 +18,18 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="5888220384304944">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="5791085221579257" type="ROM30">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2171682200906974" type="System">
+                    <param id="0" name="Layout">room-10(DS)</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

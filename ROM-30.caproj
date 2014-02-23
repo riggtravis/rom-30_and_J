@@ -1906,7 +1906,7 @@
         <layout>j13.xml</layout>
         <layout>r14.xml</layout>
         <layout>r15(GPS).xml</layout>
-        <layout>room-10(datasheet).xml</layout>
+        <layout>room-10(DS).xml</layout>
         <layout>room-12.xml</layout>
         <layout>Jellominer.xml</layout>
         <layout>room-18.xml</layout>
@@ -1944,8 +1944,8 @@
         <event-sheet>Tall_Mob.xml</event-sheet>
         <event-sheet>Slime.xml</event-sheet>
         <event-sheet>room-12.xml</event-sheet>
-        <event-sheet>rooms.xml</event-sheet>
         <event-sheet>Start.xml</event-sheet>
+        <event-sheet>room-10.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="140" />
