@@ -243,7 +243,7 @@
                     <conditions>
                         <condition id="-1" name="Compare X" sid="9297404126019076" type="ROM30">
                             <param id="0" name="Comparison">4</param>
-                            <param id="1" name="X co-ordinate">800</param>
+                            <param id="1" name="X co-ordinate">840</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -269,7 +269,7 @@
                     <conditions>
                         <condition id="-2" name="Compare Y" sid="1731488313596479" type="ROMchoice">
                             <param id="0" name="Comparison">4</param>
-                            <param id="1" name="Y co-ordinate">480</param>
+                            <param id="1" name="Y co-ordinate">490</param>
                         </condition>
                     </conditions>
                     <actions>
