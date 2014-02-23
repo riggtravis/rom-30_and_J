@@ -260,6 +260,9 @@
                 <GPS>false</GPS>
                 <KevlarVest>false</KevlarVest>
                 <Beer>false</Beer>
+                <ReceivedAV>false</ReceivedAV>
+                <ReceivedEC>false</ReceivedEC>
+                <ReceivedDS>false</ReceivedDS>
             </instance-variables>
         </instance>
         <instance type="JInv" uid="127">

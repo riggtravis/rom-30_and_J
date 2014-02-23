@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EOG</name>
+    <events>
+        <event-block sid="3282530003615823">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="578532488978274" type="JInv">
+                    <param id="0" name="Instance variable">ReceivedGPS</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="4201382290067994" type="JInv">
+                    <param id="0" name="Instance variable">ReceivedBeer</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="5536300376409778" type="JInv">
+                    <param id="0" name="Instance variable">ReceivedKV</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="3717831418650686" type="ROM30Inv">
+                    <param id="0" name="Instance variable">ReceivedAV</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="7780688934134494" type="ROM30Inv">
+                    <param id="0" name="Instance variable">ReceivedEC</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="6064463271957157" type="ROM30Inv">
+                    <param id="0" name="Instance variable">ReceivedDS</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="3681651462315331" type="System">
+                    <param id="0" name="Layout">&quot;blood&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

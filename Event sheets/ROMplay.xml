@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>ROMplay</name>
     <events>
+        <include>EOG</include>
         <comment>Use the down arrow to allow the player to deliberately drop down through a jump-thru platform.</comment>
         <event-block sid="7802567838797677">
             <conditions>

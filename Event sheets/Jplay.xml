@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Jplay</name>
     <events>
+        <include>EOG</include>
         <event-block sid="3231033161590552">
             <conditions>
                 <condition id="0" name="On key pressed" sid="7954519995822246" type="Keyboard">

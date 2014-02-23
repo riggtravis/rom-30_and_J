@@ -28,8 +28,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>room-11</layout>
         <layout>room-7</layout>
         <layout>room-9 (energy crystal)</layout>
+        <layout>blood</layout>
         <event-sheet>ROMplay</event-sheet>
-        <event-sheet active="1">room-13 (start) (ROM-30)</event-sheet>
+        <event-sheet>room-13 (start) (ROM-30)</event-sheet>
         <event-sheet>room-13 (start) (Jplay)</event-sheet>
         <event-sheet>Jplay</event-sheet>
         <event-sheet>room-15 (GPS)</event-sheet>
@@ -47,6 +48,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet>room-4</event-sheet>
         <event-sheet>room-5</event-sheet>
         <event-sheet>room-6</event-sheet>
+        <event-sheet>EOG</event-sheet>
+        <event-sheet active="1">blood</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
