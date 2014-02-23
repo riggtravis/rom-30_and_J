@@ -29,7 +29,7 @@
             <instances />
             <effects />
         </layer>
-        <layer name="Ground" sid="9733759102500375">
+        <layer name="Game" sid="9733759102500375">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -104,7 +104,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Game Objects" sid="2724876108135517">
+        <layer name="UI" sid="2724876108135517">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
