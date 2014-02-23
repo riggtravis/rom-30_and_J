@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>ROM-30</name>
-    <description></description>
+    <description>Metroidvania style platformer in which the player is non-human.</description>
     <version>1.0</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
+    <author>Cody Ferguson &amp; Travis Rigg</author>
+    <author-email>rigg.travis@gmail.com</author-email>
+    <author-website>twitch.tv/maghzz</author-website>
     <app-id></app-id>
     <unique-id>3phjf8c2bcezm</unique-id>
     <saved-with-version>16300</saved-with-version>
