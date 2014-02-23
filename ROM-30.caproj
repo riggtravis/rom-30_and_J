@@ -1512,8 +1512,8 @@
         <layout>j13(start).xml</layout>
         <layout>r15(GPS).xml</layout>
         <layout>Jplay.xml</layout>
-        <layout>room-12.xml</layout>
         <layout>room-10(datasheet).xml</layout>
+        <layout>room-12.xml</layout>
         <layout>room-11.xml</layout>
         <layout>room-7.xml</layout>
         <layout>room-8.xml</layout>
@@ -1537,7 +1537,7 @@
         <event-sheet>j15.xml</event-sheet>
         <event-sheet>Tall_Mob.xml</event-sheet>
         <event-sheet>Slime.xml</event-sheet>
-        <event-sheet>level 12.xml</event-sheet>
+        <event-sheet>room-12.xml</event-sheet>
         <event-sheet>rooms.xml</event-sheet>
     </event-folder>
     <global-instances>

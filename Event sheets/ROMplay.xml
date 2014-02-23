@@ -267,15 +267,9 @@
                 </event-block>
                 <event-block sid="3709015032859837">
                     <conditions>
-<<<<<<< HEAD
-                        <condition id="-2" name="Compare Y" sid="1731488313596479" type="ROMchoice">
-                            <param id="0" name="Comparison">4</param>
-                            <param id="1" name="Y co-ordinate">490</param>
-=======
                         <condition id="-2" name="Compare Y" sid="5790231184181969" type="ROM30">
                             <param id="0" name="Comparison">2</param>
                             <param id="1" name="Y co-ordinate">0</param>
->>>>>>> 8c9c5242772945c46ff2f1127f5b31ac09514d1a
                         </condition>
                     </conditions>
                     <actions>
