@@ -720,125 +720,6 @@
                 <instance-variable comment="Has ROM30 handed over the vest?" name="ReceivedKV" sid="9046618120999826" type="boolean" />
             </instance-variables>
         </object-type>
-        <object-type name="Tall_Mob" sid="1889635976499165">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="2783266243947383">
-                    <behavior id="solid" />
-                </behavior-type>
-                <behavior-type name="LineOfSight" sid="9797182687258062">
-                    <behavior id="LOS" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="8848619727857851" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1.0625">
-                        <collision-poly>
-                            <point x="0.145833" y="0.4375" />
-                            <point x="0.5" y="0" />
-                            <point x="0.854167" y="0.4375" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="4" loop="0" name="Attack" pingpong="0" repeatcount="1" repeatto="0" sid="9673690934313445" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1.0625">
-                        <collision-poly>
-                            <point x="0.145833" y="0.4375" />
-                            <point x="0.5" y="0" />
-                            <point x="0.854167" y="0.4375" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="1.02174">
-                        <collision-poly>
-                            <point x="0.0416663" y="0.23913" />
-                            <point x="0.5" y="0" />
-                            <point x="0.9375" y="0.23913" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="1.01163">
-                        <collision-poly>
-                            <point x="0.0416667" y="0.104651" />
-                            <point x="0.5" y="0" />
-                            <point x="1" y="0.0813954" />
-                            <point x="1" y="0.848837" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0.848837" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="1.00685">
-                        <collision-poly>
-                            <point x="0.145833" y="0.0479452" />
-                            <point x="0.5" y="0" />
-                            <point x="0.854167" y="0.0479452" />
-                            <point x="1" y="0.219178" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0.219178" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="5" loop="0" name="Retreat" pingpong="0" repeatcount="1" repeatto="0" sid="5521870718561719" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="1.00862">
-                        <collision-poly>
-                            <point x="0.145833" y="0.0603448" />
-                            <point x="0.5" y="0" />
-                            <point x="0.854167" y="0.0603448" />
-                            <point x="1" y="0.62931" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0.62931" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="1.01163" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="1.01786">
-                        <collision-poly>
-                            <point x="0.145833" y="0.125" />
-                            <point x="0.5" y="0" />
-                            <point x="0.854167" y="0.125" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="1.03846">
-                        <collision-poly>
-                            <point x="0.145833" y="0.269231" />
-                            <point x="0.5" y="0" />
-                            <point x="0.854167" y="0.269231" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="1.0625">
-                        <collision-poly>
-                            <point x="0.145833" y="0.4375" />
-                            <point x="0.5" y="0" />
-                            <point x="0.854167" y="0.4375" />
-                            <point x="1" y="1" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Slime" sid="6993908244743364">
             <plugin id="Sprite" />
             <instance-variables>
@@ -1935,20 +1816,17 @@
         <event-sheet>ROMplay.xml</event-sheet>
         <event-sheet>Select.xml</event-sheet>
         <event-sheet>Jplay.xml</event-sheet>
-        <event-sheet>r13.xml</event-sheet>
-        <event-sheet>r14.xml</event-sheet>
-        <event-sheet>r15.xml</event-sheet>
-        <event-sheet>j13.xml</event-sheet>
-        <event-sheet>j14.xml</event-sheet>
-        <event-sheet>j15.xml</event-sheet>
-        <event-sheet>Tall_Mob.xml</event-sheet>
+        <event-sheet>room-13 (start) (ROM-30).xml</event-sheet>
+        <event-sheet>room-14.xml</event-sheet>
+        <event-sheet>room-15 (GPS).xml</event-sheet>
+        <event-sheet>room-13 (start) (Jplay).xml</event-sheet>
         <event-sheet>Slime.xml</event-sheet>
         <event-sheet>room-12.xml</event-sheet>
         <event-sheet>Start.xml</event-sheet>
         <event-sheet>room-10.xml</event-sheet>
         <event-sheet>room-11.xml</event-sheet>
         <event-sheet>room-7.xml</event-sheet>
-        <event-sheet>room-9(energy crystal).xml</event-sheet>
+        <event-sheet>room-9 (energy crystal).xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="140" />

@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>r13</name>
+    <name>room-13 (start) (ROM-30)</name>
     <events>
-        <include>Tall_Mob</include>
         <include>ROMplay</include>
         <event-block sid="1643162618682555">
             <conditions>

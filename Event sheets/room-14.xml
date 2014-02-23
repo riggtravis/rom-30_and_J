@@ -1,28 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>j14</name>
+    <name>room-14</name>
     <events>
-        <include>Jplay</include>
-        <event-block sid="3514426823960262">
+        <include>ROMplay</include>
+        <event-block sid="7781486901020934">
             <conditions>
-                <condition id="-4" name="Is outside layout" sid="123521759326085" type="J" />
-                <condition id="-1" name="Compare X" sid="161082346295015" type="J">
+                <condition id="-1" name="Compare X" sid="9469848696139962" type="ROM30">
                     <param id="0" name="Comparison">2</param>
                     <param id="1" name="X co-ordinate">0</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-2" name="Go to layout" sid="6988931956290329" type="System">
+                    <param id="0" name="Layout">room-13 (start) (ROM-30)</param>
+                </action>
+            </actions>
         </event-block>
-        <event-block sid="9160696431916069">
+        <event-block sid="6160544987427459">
             <conditions>
-                <condition id="-2" name="Compare Y" sid="953187119280919" type="J">
+                <condition id="-2" name="Compare Y" sid="7047302521807437" type="ROM30">
                     <param id="0" name="Comparison">4</param>
-                    <param id="1" name="Y co-ordinate">480</param>
+                    <param id="1" name="Y co-ordinate">490</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="8251912306745711" type="System">
+                <action id="-2" name="Go to layout" sid="1382589748588077" type="System">
                     <param id="0" name="Layout">room-15 (GPS)</param>
                 </action>
             </actions>
