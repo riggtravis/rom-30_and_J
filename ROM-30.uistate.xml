@@ -12,14 +12,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout>r13(start)</layout>
         <layout active="1">Select</layout>
-<<<<<<< HEAD
         <layout>j13(start)</layout>
         <layout>r14</layout>
         <layout>r15(GPS)</layout>
         <layout>j14</layout>
         <layout>j15(GPS)</layout>
         <layout>level 12</layout>
-=======
         <layout>room-12</layout>
         <layout>room-10(datasheet)</layout>
         <layout>room-11</layout>
@@ -32,12 +30,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>room-3</layout>
         <layout>room-2</layout>
         <layout>room-1(beer)</layout>
->>>>>>> 958d02b5c2c8f2e7fb0728b82b73cf781c29b048
         <event-sheet>ROMplay</event-sheet>
         <event-sheet>Select</event-sheet>
         <event-sheet>Jplay</event-sheet>
         <event-sheet>r13</event-sheet>
-<<<<<<< HEAD
         <event-sheet>r14</event-sheet>
         <event-sheet>r15</event-sheet>
         <event-sheet>j13</event-sheet>
@@ -45,8 +41,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet>j15</event-sheet>
         <event-sheet>Tall_Mob</event-sheet>
         <event-sheet>Slime</event-sheet>
-=======
->>>>>>> 958d02b5c2c8f2e7fb0728b82b73cf781c29b048
         <event-sheet>level 12</event-sheet>
         <event-sheet>rooms</event-sheet>
     </open-tabs>

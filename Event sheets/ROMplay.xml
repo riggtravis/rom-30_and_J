@@ -220,7 +220,6 @@
                 </event-block>
             </sub-events>
         </event-block>
-<<<<<<< HEAD
         <event-block sid="5694149173224464">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="9248070565542224" type="System" />
@@ -281,7 +280,5 @@
                 </event-block>
             </sub-events>
         </event-block>
-=======
->>>>>>> 958d02b5c2c8f2e7fb0728b82b73cf781c29b048
     </events>
 </c2eventsheet>
