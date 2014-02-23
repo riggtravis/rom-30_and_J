@@ -1511,7 +1511,6 @@
         <layout>r14.xml</layout>
         <layout>j13(start).xml</layout>
         <layout>r15(GPS).xml</layout>
-        <layout>Jplay.xml</layout>
         <layout>room-10(datasheet).xml</layout>
         <layout>room-12.xml</layout>
         <layout>room-11.xml</layout>

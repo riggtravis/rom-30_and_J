@@ -191,5 +191,30 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="4832724358271365">
+            <conditions>
+                <condition id="2" name="Key is down" sid="4667239073085881" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="8904992913615836">
+                    <conditions>
+                        <condition behavior="Platform" id="10" name="Is by wall" sid="3537743861953372" type="J">
+                            <param id="0" name="Side">0</param>
+                        </condition>
+                        <condition behavior="Platform" id="10" name="Is by wall" sid="570939036473632" type="J">
+                            <param id="0" name="Side">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="9" name="Set vector Y" sid="2260053049385336" type="J">
+                            <param id="0" name="Vector Y">-330</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>
