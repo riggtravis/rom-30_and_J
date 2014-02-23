@@ -22,7 +22,7 @@
             <conditions>
                 <condition id="-2" name="Compare Y" sid="2444055027836464" type="ROM30">
                     <param id="0" name="Comparison">4</param>
-                    <param id="1" name="Y co-ordinate">489</param>
+                    <param id="1" name="Y co-ordinate">490</param>
                 </condition>
             </conditions>
             <actions>

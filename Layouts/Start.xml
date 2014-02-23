@@ -29,7 +29,7 @@
             <instances>
                 <instance type="Text" uid="67">
                     <properties>
-                        <text>Welcome to ROM-30 and *---.  Created for Ludum Dare Mini # 49. Special Credits to Jellominer for the level design for level 16</text>
+                        <text>Welcome to ROM-30 and *---.  Created for Ludum Dare Mini # 49. Special Credits to Jellominer for the level design of room 16</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>

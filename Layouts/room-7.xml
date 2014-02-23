@@ -2,7 +2,7 @@
 <c2layout>
     <name>room-7</name>
     <sid>6699170639422862</sid>
-    <event-sheet></event-sheet>
+    <event-sheet>room-7</event-sheet>
     <size>
         <width>840</width>
         <height>490</height>

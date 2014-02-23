@@ -1902,11 +1902,11 @@
     <families />
     <layout-folder expanded="1">
         <layout>Select.xml</layout>
-        <layout>r13(start).xml</layout>
-        <layout>j13.xml</layout>
-        <layout>r14.xml</layout>
-        <layout>r15(GPS).xml</layout>
-        <layout>room-10(DS).xml</layout>
+        <layout>room-13 (start) (ROM-30).xml</layout>
+        <layout>room-13 (start) (Jplay).xml</layout>
+        <layout>room-14.xml</layout>
+        <layout>room-15 (GPS).xml</layout>
+        <layout>room-10 (Datasheet).xml</layout>
         <layout>room-12.xml</layout>
         <layout>Jellominer.xml</layout>
         <layout>room-18.xml</layout>
@@ -1921,12 +1921,12 @@
         <layout>room-11.xml</layout>
         <layout>room-7.xml</layout>
         <layout>room-8.xml</layout>
-        <layout>room-9(energy crystal).xml</layout>
+        <layout>room-9 (energy crystal).xml</layout>
         <layout>room-6.xml</layout>
         <layout>room-5.xml</layout>
         <layout>room-4.xml</layout>
         <layout>room-3.xml</layout>
-        <layout>room-1(beer).xml</layout>
+        <layout>room-1 (beer).xml</layout>
         <layout>room-2.xml</layout>
         <layout>Start.xml</layout>
         <layout>Credits.xml</layout>
@@ -1948,6 +1948,7 @@
         <event-sheet>room-10.xml</event-sheet>
         <event-sheet>room-11.xml</event-sheet>
         <event-sheet>room-7.xml</event-sheet>
+        <event-sheet>room-9(energy crystal).xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="140" />

@@ -2,7 +2,7 @@
 <c2layout>
     <name>room-11</name>
     <sid>6795585404721156</sid>
-    <event-sheet></event-sheet>
+    <event-sheet>room-11</event-sheet>
     <size>
         <width>840</width>
         <height>490</height>
@@ -117,10 +117,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>209</x>
-                        <y>45</y>
+                        <x>560</x>
+                        <y>116</y>
                         <z>0</z>
-                        <width>210</width>
+                        <width>140</width>
                         <height>25</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -175,6 +175,60 @@
                         <y>463</y>
                         <z>0</z>
                         <width>210</width>
+                        <height>25</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="JumpThruTile" uid="86">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Jumpthru">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>631</x>
+                        <y>396</y>
+                        <z>0</z>
+                        <width>139</width>
+                        <height>25</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="JumpThruTile" uid="87">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Jumpthru">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>420</x>
+                        <y>46</y>
+                        <z>0</z>
+                        <width>140</width>
                         <height>25</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>

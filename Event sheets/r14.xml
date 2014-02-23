@@ -13,7 +13,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="6988931956290329" type="System">
-                    <param id="0" name="Layout">r13(start)</param>
+                    <param id="0" name="Layout">room-13 (start) (ROM-30)</param>
                 </action>
             </actions>
         </event-block>
@@ -26,7 +26,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="1382589748588077" type="System">
-                    <param id="0" name="Layout">r15(GPS)</param>
+                    <param id="0" name="Layout">room-15 (GPS)</param>
                 </action>
             </actions>
         </event-block>
