@@ -1661,6 +1661,8 @@
         <layout>room-3.xml</layout>
         <layout>room-1(beer).xml</layout>
         <layout>room-2.xml</layout>
+        <layout>Start.xml</layout>
+        <layout>Credits.xml</layout>
     </layout-folder>
     <event-folder expanded="1">
         <event-sheet>ROMplay.xml</event-sheet>
@@ -1676,6 +1678,7 @@
         <event-sheet>Slime.xml</event-sheet>
         <event-sheet>room-12.xml</event-sheet>
         <event-sheet>rooms.xml</event-sheet>
+        <event-sheet>Start.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="140" />

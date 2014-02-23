@@ -207,7 +207,7 @@
                                 <max-speed>330</max-speed>
                                 <acceleration>1500</acceleration>
                                 <deceleration>1500</deceleration>
-                                <jump-strength>650</jump-strength>
+                                <jump-strength>375</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
                                 <default-controls>Yes</default-controls>
@@ -223,7 +223,7 @@
                             <properties>
                                 <obstacles>Solids</obstacles>
                                 <range>200</range>
-                                <cone-of-view>360</cone-of-view>
+                                <cone-of-view>180</cone-of-view>
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
                         </behavior-instance>
