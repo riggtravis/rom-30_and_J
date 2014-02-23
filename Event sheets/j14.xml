@@ -27,18 +27,5 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="3639404480492951">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="2234847434391847" type="System" />
-            </conditions>
-            <actions>
-                <action id="-1" name="Set X" sid="8573763056659804" type="J">
-                    <param id="0" name="X">J.X+30</param>
-                </action>
-                <action id="-2" name="Set Y" sid="1464739080956512" type="J">
-                    <param id="0" name="Y">J.Y+90</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

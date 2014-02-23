@@ -99,7 +99,7 @@
                                 <max-speed>330</max-speed>
                                 <acceleration>1500</acceleration>
                                 <deceleration>1500</deceleration>
-                                <jump-strength>650</jump-strength>
+                                <jump-strength>375</jump-strength>
                                 <gravity>1500</gravity>
                                 <max-fall-speed>1000</max-fall-speed>
                                 <default-controls>Yes</default-controls>
@@ -114,8 +114,13 @@
                         <behavior-instance type="LineOfSight">
                             <properties>
                                 <obstacles>Solids</obstacles>
+<<<<<<< HEAD:Layouts/j13.xml
                                 <range>10000</range>
                                 <cone-of-view>360</cone-of-view>
+=======
+                                <range>200</range>
+                                <cone-of-view>180</cone-of-view>
+>>>>>>> faa3d435892740f39baf5f01a8e597fa64357aac:Layouts/j13(start).xml
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
                         </behavior-instance>

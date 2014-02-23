@@ -4,19 +4,6 @@
     <name>j13</name>
     <events>
         <include>Jplay</include>
-        <event-block sid="7057379789540519">
-            <conditions>
-                <condition id="-1" name="Compare X" sid="1472942754098394" type="J">
-                    <param id="0" name="Comparison">4</param>
-                    <param id="1" name="X co-ordinate">800</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-1" name="Set X" sid="8633430775354013" type="J">
-                    <param id="0" name="X">750</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="1644365423458116">
             <conditions>
                 <condition id="2" name="Key is down" sid="9799950337692526" type="Keyboard">

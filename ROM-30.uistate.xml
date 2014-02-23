@@ -10,6 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
+<<<<<<< HEAD
         <layout>Jellominer</layout>
         <layout>r13(start)</layout>
         <layout>room-18</layout>
@@ -21,6 +22,25 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>room-24</layout>
         <layout>room-25</layout>
         <layout active="1">room-26</layout>
+=======
+        <layout>Select</layout>
+        <layout>Start</layout>
+        <layout active="1">Credits</layout>
+        <event-sheet>ROMplay</event-sheet>
+        <event-sheet>r13</event-sheet>
+        <event-sheet>j13</event-sheet>
+        <event-sheet>j14</event-sheet>
+        <event-sheet>j15</event-sheet>
+        <event-sheet>Jplay</event-sheet>
+        <event-sheet>r14</event-sheet>
+        <event-sheet>r15</event-sheet>
+        <event-sheet>room-12</event-sheet>
+        <event-sheet>rooms</event-sheet>
+        <event-sheet>Select</event-sheet>
+        <event-sheet>Slime</event-sheet>
+        <event-sheet>Tall_Mob</event-sheet>
+        <event-sheet>Start</event-sheet>
+>>>>>>> faa3d435892740f39baf5f01a8e597fa64357aac
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

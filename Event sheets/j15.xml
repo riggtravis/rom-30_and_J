@@ -4,21 +4,5 @@
     <name>j15</name>
     <events>
         <include>Jplay</include>
-        <event-block sid="7509577079544275">
-            <conditions>
-                <condition id="-4" name="Is outside layout" sid="9654921146203047" type="J" />
-            </conditions>
-            <actions />
-        </event-block>
-        <event-block sid="6030082480894667">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="3288241904319227" type="System" />
-            </conditions>
-            <actions>
-                <action id="-2" name="Set Y" sid="8690454553760281" type="J">
-                    <param id="0" name="Y">J.Y+100</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>
