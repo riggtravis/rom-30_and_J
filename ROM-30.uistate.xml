@@ -15,7 +15,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>j13(start)</layout>
         <layout>r14</layout>
         <layout>r15(GPS)</layout>
-        <layout active="1">room-12</layout>
+        <layout>room-12</layout>
         <layout>room-10(datasheet)</layout>
         <layout>room-11</layout>
         <layout>room-7</layout>
@@ -39,7 +39,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet>j15</event-sheet>
         <event-sheet>Tall_Mob</event-sheet>
         <event-sheet>Slime</event-sheet>
-        <event-sheet>level 12</event-sheet>
+        <event-sheet active="1">level 12</event-sheet>
         <event-sheet>rooms</event-sheet>
     </open-tabs>
     <properties>
