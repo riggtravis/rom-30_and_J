@@ -26,8 +26,8 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-25" name="Go to layout (by name)" sid="299682658914212" type="System">
-                    <param id="0" name="Layout">&quot;level 12&quot;</param>
+                <action id="-2" name="Go to layout" sid="299682658914212" type="System">
+                    <param id="0" name="Layout">room-12</param>
                 </action>
             </actions>
         </event-block>
