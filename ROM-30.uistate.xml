@@ -10,12 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1">r13(start)</layout>
+        <layout>r13(start)</layout>
         <layout>Select</layout>
         <layout>j13(start)</layout>
         <layout>r14</layout>
         <layout>r15(GPS)</layout>
-        <layout>room-10(datasheet)</layout>
+        <layout active="1">room-10(datasheet)</layout>
         <layout>room-11</layout>
         <layout>room-7</layout>
         <layout>room-8</layout>
@@ -29,7 +29,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>room-12</layout>
         <event-sheet>ROMplay</event-sheet>
         <event-sheet>Select</event-sheet>
-        <event-sheet active="1">Jplay</event-sheet>
+        <event-sheet>Jplay</event-sheet>
         <event-sheet>r13</event-sheet>
         <event-sheet>r14</event-sheet>
         <event-sheet>r15</event-sheet>

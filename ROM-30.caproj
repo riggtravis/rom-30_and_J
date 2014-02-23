@@ -1503,6 +1503,144 @@
                 </tile>
             </tiles>
         </object-type>
+        <object-type name="room15_GPS" sid="5801697224760222">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9021949920666088">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+            <tiles>
+                <tile id="40">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.567857" />
+                        <point x="0.0821429" y="0.567857" />
+                        <point x="0" y="0.5125" />
+                    </collision-poly>
+                </tile>
+                <tile id="41">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.567857" />
+                        <point x="0" y="0.571429" />
+                    </collision-poly>
+                </tile>
+            </tiles>
+        </object-type>
+        <object-type name="room13" sid="6419338241775821">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9550568348422391">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+            <tiles>
+                <tile id="3">
+                    <collision-poly>
+                        <point x="9.31323e-010" y="0.642857" />
+                        <point x="1" y="0.646429" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="4">
+                    <collision-poly>
+                        <point x="0" y="0.65" />
+                        <point x="1" y="0.65" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="5">
+                    <collision-poly>
+                        <point x="0" y="0.639286" />
+                        <point x="1" y="0.635714" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="30">
+                    <collision-poly>
+                        <point x="0" y="0.635714" />
+                        <point x="1" y="0.639286" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="31">
+                    <collision-poly>
+                        <point x="0" y="0.639286" />
+                        <point x="1" y="0.635714" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="51">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="1" />
+                        <point x="0.717857" y="0.971429" />
+                        <point x="0.477567" y="0.905469" />
+                        <point x="0.34442" y="0.846652" />
+                        <point x="0.203125" y="0.757589" />
+                        <point x="0.0848215" y="0.622321" />
+                        <point x="0.00535716" y="0.448214" />
+                    </collision-poly>
+                </tile>
+                <tile id="53">
+                    <collision-poly>
+                        <point x="0" y="0" />
+                        <point x="1" y="0" />
+                        <point x="1" y="0.453571" />
+                        <point x="0.901897" y="0.656919" />
+                        <point x="0.753794" y="0.788839" />
+                        <point x="0.614732" y="0.870536" />
+                        <point x="0.497321" y="0.916071" />
+                        <point x="0.370982" y="0.949107" />
+                        <point x="0.205357" y="0.975" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="66">
+                    <collision-poly>
+                        <point x="0" y="0.635714" />
+                        <point x="1" y="0.639286" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="67">
+                    <collision-poly>
+                        <point x="0" y="0.642857" />
+                        <point x="1" y="0.635714" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="68">
+                    <collision-poly>
+                        <point x="0" y="0.65" />
+                        <point x="1" y="0.65" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+                <tile id="69">
+                    <collision-poly>
+                        <point x="0" y="0.635714" />
+                        <point x="1" y="0.639286" />
+                        <point x="1" y="1" />
+                        <point x="0" y="1" />
+                    </collision-poly>
+                </tile>
+            </tiles>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
