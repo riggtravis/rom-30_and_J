@@ -15,73 +15,16 @@
                 <action behavior="Platform" id="12" name="Fall through" sid="2706824250731933" type="ROM30" />
             </actions>
         </event-block>
-        <comment>Allow WASD as alternate controls to arrow keys.</comment>
-        <event-block any="1" sid="7454058799112713">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="2824736047341067" type="Keyboard">
-                    <param id="0" name="Key">88 (X)</param>
-                </condition>
-                <condition id="2" name="Key is down" sid="2037424914663548" type="Keyboard">
-                    <param id="0" name="Key">87 (W)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="7" name="Simulate control" sid="1622085182686309" type="ROM30">
-                    <param id="0" name="Control">2</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="2218432214179136">
-            <conditions>
-                <condition id="2" name="Key is down" sid="270127836777385" type="Keyboard">
-                    <param id="0" name="Key">65 (A)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="7" name="Simulate control" sid="3954110480318482" type="ROM30">
-                    <param id="0" name="Control">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="6069433004518935">
-            <conditions>
-                <condition id="2" name="Key is down" sid="4627190665422148" type="Keyboard">
-                    <param id="0" name="Key">83 (S)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="12" name="Fall through" sid="8748211164534616" type="ROM30" />
-            </actions>
-        </event-block>
-        <event-block sid="8251787326411755">
-            <conditions>
-                <condition id="2" name="Key is down" sid="5595712563715245" type="Keyboard">
-                    <param id="0" name="Key">68 (D)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="7" name="Simulate control" sid="6886098953683015" type="ROM30">
-                    <param id="0" name="Control">1</param>
-                </action>
-            </actions>
-        </event-block>
         <comment>Mirror the player&apos;s image so they appear facing the right way when moving left or right.</comment>
         <event-block any="1" sid="8591422408122539">
             <conditions>
                 <condition id="0" name="On key pressed" sid="2997929493681128" type="Keyboard">
                     <param id="0" name="Key">37 (Left arrow)</param>
                 </condition>
-                <condition id="0" name="On key pressed" sid="1529016549307264" type="Keyboard">
-                    <param id="0" name="Key">65 (A)</param>
-                </condition>
             </conditions>
             <actions>
                 <action id="7" name="Set mirrored" sid="6696702572522074" type="ROM30">
                     <param id="0" name="State">0</param>
-                </action>
-                <action id="4" name="Set animation" sid="8394798875690503" type="ROM30">
-                    <param id="0" name="Animation">&quot;run&quot;</param>
-                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -90,17 +33,10 @@
                 <condition id="0" name="On key pressed" sid="3534400865376512" type="Keyboard">
                     <param id="0" name="Key">39 (Right arrow)</param>
                 </condition>
-                <condition id="0" name="On key pressed" sid="820082886569928" type="Keyboard">
-                    <param id="0" name="Key">68 (D)</param>
-                </condition>
             </conditions>
             <actions>
                 <action id="7" name="Set mirrored" sid="3016636743388588" type="ROM30">
                     <param id="0" name="State">1</param>
-                </action>
-                <action id="4" name="Set animation" sid="9229762000464005" type="ROM30">
-                    <param id="0" name="Animation">&quot;run&quot;</param>
-                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>

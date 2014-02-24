@@ -40,5 +40,31 @@
             </conditions>
             <actions />
         </event-block>
+        <event-block sid="4145251425072929">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="7374270995256717" type="J">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1116004739808965" type="System">
+                    <param id="0" name="Layout">room-13 (start) (Jplay)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1828349466390871">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="5151154617975397" type="J">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">490</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="7501145417739603" type="System">
+                    <param id="0" name="Layout">room-15 (GPS)</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

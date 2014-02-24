@@ -4,97 +4,7 @@
     <name>Jplay</name>
     <events>
         <include>EOG</include>
-        <event-block any="1" sid="1723165231013912">
-            <conditions>
-                <condition id="2" name="Key is down" sid="17201196214212" type="Keyboard">
-                    <param id="0" name="Key">87 (W)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="7" name="Simulate control" sid="5600944107432867" type="J">
-                    <param id="0" name="Control">2</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="3269886121921615">
-            <conditions>
-                <condition id="2" name="Key is down" sid="817833208762504" type="Keyboard">
-                    <param id="0" name="Key">65 (A)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="7" name="Simulate control" sid="8292340841513178" type="J">
-                    <param id="0" name="Control">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="2470971102350613">
-            <conditions>
-                <condition id="2" name="Key is down" sid="5939510529330568" type="Keyboard">
-                    <param id="0" name="Key">83 (S)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="12" name="Fall through" sid="4260900557057778" type="J" />
-            </actions>
-        </event-block>
-        <event-block sid="8284615334846244">
-            <conditions>
-                <condition id="2" name="Key is down" sid="6552094834702079" type="Keyboard">
-                    <param id="0" name="Key">68 (D)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="7" name="Simulate control" sid="8370717711092157" type="J">
-                    <param id="0" name="Control">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <comment>Mirror the player&apos;s image so they appear facing the right way when moving left or right.</comment>
-        <event-block sid="3583044719267232">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="6415714391905992" type="Keyboard">
-                    <param id="0" name="Key">65 (A)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="7" name="Set mirrored" sid="5917805933874104" type="J">
-                    <param id="0" name="State">0</param>
-                </action>
-                <action id="4" name="Set animation" sid="9170148636757947" type="J">
-                    <param id="0" name="Animation">&quot;run&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="2127843349673061">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="2852224652613697" type="Keyboard">
-                    <param id="0" name="Key">68 (D)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="7" name="Set mirrored" sid="9935711483004658" type="J">
-                    <param id="0" name="State">1</param>
-                </action>
-                <action id="4" name="Set animation" sid="6296140430142958" type="J">
-                    <param id="0" name="Animation">&quot;run&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
         <comment>If the player falls off the bottom of the layout, restart the level.</comment>
-        <event-block sid="2882869782349997">
-            <conditions>
-                <condition id="-2" name="Compare Y" sid="1989144656511162" type="J">
-                    <param id="0" name="Comparison">4</param>
-                    <param id="1" name="Y co-ordinate">LayoutHeight</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-26" name="Restart layout" sid="872478308420494" type="System" />
-            </actions>
-        </event-block>
         <event-block sid="1751851260356753">
             <conditions>
                 <condition behavior="Platform" id="3" name="Is jumping" sid="6636516471103924" type="J" />
@@ -163,16 +73,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="9127886525573179">
-            <conditions>
-                <condition id="-19" name="On destroyed" sid="7847214944626231" type="Text" />
-            </conditions>
-            <actions>
-                <action behavior="Jumpthru" id="0" name="Set enabled" sid="3425425601186288" type="JumpThruTile">
-                    <param id="0" name="State">0</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="4832724358271365">
             <conditions>
                 <condition id="2" name="Key is down" sid="4667239073085881" type="Keyboard">
@@ -194,11 +94,14 @@
                         <action behavior="Platform" id="9" name="Set vector Y" sid="2260053049385336" type="J">
                             <param id="0" name="Vector Y">-330</param>
                         </action>
+                        <action id="7" name="Set mirrored" sid="5046318106181464" type="J">
+                            <param id="0" name="State">0</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="9883114819184051">
+        <event-block collapsed="1" sid="9883114819184051">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="7164006944818964" type="System" />
             </conditions>
@@ -257,6 +160,26 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="216386183343372">
+            <conditions>
+                <condition id="2" name="Key is down" sid="5435246312388674" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="3848999982220479">
+            <conditions>
+                <condition id="2" name="Key is down" sid="6920877735950738" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="3359781655569354" type="J">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

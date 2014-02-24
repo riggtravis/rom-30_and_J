@@ -539,7 +539,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="J" sid="8070094149656911">
+        <object-type global="1" name="J" sid="8070094149656911">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Platform" sid="4777175523898694">
@@ -2095,7 +2095,7 @@
         <event-sheet>ROMplay.xml</event-sheet>
         <event-sheet>Select.xml</event-sheet>
         <event-sheet>Jplay.xml</event-sheet>
-        <event-sheet>room-13 (start) (ROM-30).xml</event-sheet>
+        <event-sheet>room-13 (start).xml</event-sheet>
         <event-sheet>room-14.xml</event-sheet>
         <event-sheet>room-15 (GPS).xml</event-sheet>
         <event-sheet>Slime.xml</event-sheet>
