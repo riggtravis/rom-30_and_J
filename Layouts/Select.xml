@@ -331,6 +331,19 @@
             <effects />
         </layer>
     </layers>
-    <nonworld-instances />
+    <nonworld-instances>
+        <instance type="Inv" uid="40">
+            <properties>
+                <width>10</width>
+                <height>1</height>
+                <depth>1</depth>
+            </properties>
+            <instance-variables>
+                <BlueCrystals>0</BlueCrystals>
+                <RedCrystals>0</RedCrystals>
+                <Full>false</Full>
+            </instance-variables>
+        </instance>
+    </nonworld-instances>
     <effects />
 </c2layout>

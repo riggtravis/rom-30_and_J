@@ -115,47 +115,6 @@
                 </condition>
             </conditions>
             <actions />
-            <sub-events>
-                <event-block sid="1760638186454968">
-                    <conditions>
-                        <condition id="-8" name="Is boolean instance variable set" sid="8200284748822976" type="ROM30Inv">
-                            <param id="0" name="Instance variable">Beer</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-13" name="Set boolean" sid="4149922926376658" type="JInv">
-                            <param id="0" name="Instance variable">ReceivedBeer</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="3135549024793586">
-                    <conditions>
-                        <condition id="-8" name="Is boolean instance variable set" sid="5411852998901214" type="ROM30Inv">
-                            <param id="0" name="Instance variable">KevlarVest</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-13" name="Set boolean" sid="1972508600121525" type="JInv">
-                            <param id="0" name="Instance variable">ReceivedKV</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="7500212753913701">
-                    <conditions>
-                        <condition id="-8" name="Is boolean instance variable set" sid="3378705890132188" type="ROM30Inv">
-                            <param id="0" name="Instance variable">GPS</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-13" name="Set boolean" sid="488244302817877" type="JInv">
-                            <param id="0" name="Instance variable">ReceivedGPS</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="2146193843765907">
             <conditions>

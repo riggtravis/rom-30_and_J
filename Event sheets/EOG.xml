@@ -5,23 +5,10 @@
     <events>
         <event-block sid="3282530003615823">
             <conditions>
-                <condition id="-8" name="Is boolean instance variable set" sid="578532488978274" type="JInv">
-                    <param id="0" name="Instance variable">ReceivedGPS</param>
-                </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="4201382290067994" type="JInv">
-                    <param id="0" name="Instance variable">ReceivedBeer</param>
-                </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="5536300376409778" type="JInv">
-                    <param id="0" name="Instance variable">ReceivedKV</param>
-                </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="3717831418650686" type="ROM30Inv">
-                    <param id="0" name="Instance variable">ReceivedAV</param>
-                </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="7780688934134494" type="ROM30Inv">
-                    <param id="0" name="Instance variable">ReceivedEC</param>
-                </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="6064463271957157" type="ROM30Inv">
-                    <param id="0" name="Instance variable">ReceivedDS</param>
+                <condition id="-8" name="Compare two values" sid="7820406886973976" type="System">
+                    <param id="0" name="First value">Inv.RedCrystals+Inv.BlueCrystals</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">6</param>
                 </condition>
             </conditions>
             <actions>

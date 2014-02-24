@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Crystal</name>
+    <events>
+        <event-block sid="502850145325614">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="3795881254340823" type="J">
+                    <param id="0" name="Object">BlueCrystal</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="8749044397231522" type="Inv">
+                    <param id="0" name="Instance variable">Full</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="5000056112865781" type="Inv">
+                    <param id="0" name="Instance variable">BlueCrystals</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="5805802063164647" type="BlueCrystal" />
+            </actions>
+        </event-block>
+        <event-block sid="2968251106811249">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="5134052742096029" type="ROM30">
+                    <param id="0" name="Object">RedCrystal</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="307384176050736" type="Inv">
+                    <param id="0" name="Instance variable">Full</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="7785099474494122" type="Inv">
+                    <param id="0" name="Instance variable">RedCrystals</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="7922527852756054" type="RedCrystal" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

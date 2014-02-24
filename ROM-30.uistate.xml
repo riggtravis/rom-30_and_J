@@ -12,7 +12,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout>room-13 (start) (ROM-30)</layout>
         <layout>room-18</layout>
-        <layout active="1">room-22</layout>
+        <layout>room-22</layout>
         <layout>Select</layout>
         <layout>Start</layout>
         <layout>Credits</layout>
@@ -38,10 +38,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet>room-1 (beer)</event-sheet>
         <event-sheet>room-2</event-sheet>
         <event-sheet>room-6</event-sheet>
-        <event-sheet>EOG</event-sheet>
+        <event-sheet active="1">EOG</event-sheet>
         <event-sheet>Start</event-sheet>
         <event-sheet>room-18</event-sheet>
         <event-sheet>room-22</event-sheet>
+        <event-sheet>Crystal</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

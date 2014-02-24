@@ -92,7 +92,7 @@
                     </conditions>
                     <actions>
                         <action behavior="Platform" id="9" name="Set vector Y" sid="2260053049385336" type="J">
-                            <param id="0" name="Vector Y">-500</param>
+                            <param id="0" name="Vector Y">-501</param>
                         </action>
                     </actions>
                 </event-block>

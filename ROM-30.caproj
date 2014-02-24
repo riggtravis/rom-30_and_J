@@ -681,28 +681,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type global="1" name="ROM30Inv" sid="7504782738862094">
-            <plugin id="Arr" />
-            <instance-variables>
-                <instance-variable comment="Does the Player have the GPS?" name="GPS" sid="1521153035370553" type="boolean" />
-                <instance-variable comment="Does the player have the vest" name="KevlarVest" sid="1321830818944961" type="boolean" />
-                <instance-variable comment="Does the player have the beer?" name="Beer" sid="1179385067106931" type="boolean" />
-                <instance-variable comment="Has the player received the antivirus?" name="ReceivedAV" sid="2118963670855281" type="boolean" />
-                <instance-variable comment="Has the player received the Energy Crystals?" name="ReceivedEC" sid="4617110536335448" type="boolean" />
-                <instance-variable comment="Has the player received the datasheet?" name="ReceivedDS" sid="8921042982898119" type="boolean" />
-            </instance-variables>
-        </object-type>
-        <object-type global="1" name="JInv" sid="7898837305129895">
-            <plugin id="Arr" />
-            <instance-variables>
-                <instance-variable comment="Does the player have the antivirus?" name="AV" sid="4790801203147381" type="boolean" />
-                <instance-variable comment="Does the player have the data sheet?" name="DS" sid="5925963493497268" type="boolean" />
-                <instance-variable comment="Does the player have the Energy Crystals" name="EC" sid="2896435960700723" type="boolean" />
-                <instance-variable comment="Has ROM30 handed over the geepus?" name="ReceivedGPS" sid="8713684763988327" type="boolean" />
-                <instance-variable comment="Has ROM30 handed over the beer?" name="ReceivedBeer" sid="1525454394301829" type="boolean" />
-                <instance-variable comment="Has ROM30 handed over the vest?" name="ReceivedKV" sid="9046618120999826" type="boolean" />
-            </instance-variables>
-        </object-type>
         <object-type name="BlockingTile" sid="8819364282492271">
             <plugin id="Sprite" />
             <behaviors>
@@ -2011,6 +1989,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type global="1" name="Inv" sid="9304574673502618">
+            <plugin id="Arr" />
+            <instance-variables>
+                <instance-variable comment="How many blue crystals have been collected?" name="BlueCrystals" sid="665245753817359" type="number" />
+                <instance-variable comment="How many red crystals have been colleced?" name="RedCrystals" sid="1190980523782812" type="number" />
+                <instance-variable comment="If full, can&apos;t collect" name="Full" sid="3463060509940704" type="boolean" />
+            </instance-variables>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
@@ -2031,7 +2017,7 @@
         <layout>Credits.xml</layout>
         <layout>blood.xml</layout>
     </layout-folder>
-    <event-folder expanded="0">
+    <event-folder expanded="1">
         <event-sheet>ROMplay.xml</event-sheet>
         <event-sheet>Select.xml</event-sheet>
         <event-sheet>Jplay.xml</event-sheet>
@@ -2050,6 +2036,7 @@
         <event-sheet>blood.xml</event-sheet>
         <event-sheet>room-18.xml</event-sheet>
         <event-sheet>room-22.xml</event-sheet>
+        <event-sheet>Crystal.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="140" />
