@@ -18,7 +18,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="6988931956290329" type="System">
-                    <param id="0" name="Layout">room-13 (start) (ROM-30)</param>
+                    <param id="0" name="Layout">room-13</param>
                 </action>
             </actions>
         </event-block>

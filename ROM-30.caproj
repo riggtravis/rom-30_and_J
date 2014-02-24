@@ -1962,6 +1962,11 @@
         </object-type>
         <object-type name="BlueCrystal" sid="4791717953456007">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Persist" sid="8899542593779557">
+                    <behavior id="Persist" />
+                </behavior-type>
+            </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3012116470058815" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
@@ -1979,6 +1984,11 @@
         </object-type>
         <object-type name="RedCrystal" sid="8281342691273329">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Persist" sid="370658027859985">
+                    <behavior id="Persist" />
+                </behavior-type>
+            </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7172763254764155" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
@@ -2012,6 +2022,7 @@
         <layout>room-9 (energy crystal).xml</layout>
         <layout>room-10 (Datasheet).xml</layout>
         <layout>room-12.xml</layout>
+        <layout>room-13.xml</layout>
         <layout>room-13 (start) (ROM-30).xml</layout>
         <layout>room-13 (start) (Jplay).xml</layout>
         <layout>room-14.xml</layout>
