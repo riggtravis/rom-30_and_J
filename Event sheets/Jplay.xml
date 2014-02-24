@@ -92,10 +92,7 @@
                     </conditions>
                     <actions>
                         <action behavior="Platform" id="9" name="Set vector Y" sid="2260053049385336" type="J">
-                            <param id="0" name="Vector Y">-330</param>
-                        </action>
-                        <action id="7" name="Set mirrored" sid="5046318106181464" type="J">
-                            <param id="0" name="State">0</param>
+                            <param id="0" name="Vector Y">-500</param>
                         </action>
                     </actions>
                 </event-block>

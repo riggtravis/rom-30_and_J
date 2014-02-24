@@ -13,7 +13,7 @@
                 </condition>
                 <condition id="-1" name="Compare X" sid="7843621785490162" type="J">
                     <param id="0" name="Comparison">4</param>
-                    <param id="1" name="X co-ordinate">0</param>
+                    <param id="1" name="X co-ordinate">840</param>
                 </condition>
             </conditions>
             <actions>

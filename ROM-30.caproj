@@ -2073,20 +2073,20 @@
     <families />
     <layout-folder expanded="1">
         <layout>Select.xml</layout>
+        <layout>room-1 (beer).xml</layout>
+        <layout>room-2.xml</layout>
+        <layout>room-7.xml</layout>
+        <layout>room-9 (energy crystal).xml</layout>
+        <layout>room-10 (Datasheet).xml</layout>
+        <layout>room-12.xml</layout>
         <layout>room-13 (start) (ROM-30).xml</layout>
         <layout>room-13 (start) (Jplay).xml</layout>
         <layout>room-14.xml</layout>
         <layout>room-15 (GPS).xml</layout>
-        <layout>room-10 (Datasheet).xml</layout>
-        <layout>room-12.xml</layout>
         <layout>Jellominer.xml</layout>
         <layout>room-18.xml</layout>
         <layout>room-21.xml</layout>
         <layout>room-22.xml</layout>
-        <layout>room-7.xml</layout>
-        <layout>room-9 (energy crystal).xml</layout>
-        <layout>room-1 (beer).xml</layout>
-        <layout>room-2.xml</layout>
         <layout>Start.xml</layout>
         <layout>Credits.xml</layout>
         <layout>blood.xml</layout>
