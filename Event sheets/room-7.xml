@@ -5,19 +5,6 @@
     <events>
         <include>Jplay</include>
         <include>ROMplay</include>
-        <event-block sid="2560012868895998">
-            <conditions>
-                <condition id="-2" name="Compare Y" sid="3090753589248423" type="ROM30">
-                    <param id="0" name="Comparison">4</param>
-                    <param id="1" name="Y co-ordinate">490</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="3508184737678364" type="System">
-                    <param id="0" name="Layout">room-11</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="3266133337678029">
             <conditions>
                 <condition id="-1" name="Compare X" sid="6293248389242838" type="ROM30">
@@ -26,21 +13,47 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="6111680071516267" type="System">
-                    <param id="0" name="Layout">room-8</param>
+                <action id="-2" name="Go to layout" sid="7048344721932763" type="System">
+                    <param id="0" name="Layout">room-9 (energy crystal)</param>
                 </action>
             </actions>
         </event-block>
         <event-block sid="5268324304848778">
             <conditions>
-                <condition id="-1" name="Compare X" sid="1183585860962947" type="ROM30">
-                    <param id="0" name="Comparison">4</param>
-                    <param id="1" name="X co-ordinate">840</param>
+                <condition id="-2" name="Compare Y" sid="3246121809673489" type="ROM30">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Y co-ordinate">0</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="6495204124040261" type="System">
-                    <param id="0" name="Layout">room-6</param>
+                <action id="-2" name="Go to layout" sid="6535999532510717" type="System">
+                    <param id="0" name="Layout">room-2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3667774066413666">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="1570830193563201" type="J">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2758409796592227" type="System">
+                    <param id="0" name="Layout">room-9 (energy crystal)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1700966059710843">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="3771805186721547" type="J">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Y co-ordinate">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2780483489560316" type="System">
+                    <param id="0" name="Layout">room-2</param>
                 </action>
             </actions>
         </event-block>

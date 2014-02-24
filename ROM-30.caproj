@@ -2081,22 +2081,10 @@
         <layout>room-12.xml</layout>
         <layout>Jellominer.xml</layout>
         <layout>room-18.xml</layout>
-        <layout>room-19.xml</layout>
-        <layout>room-20.xml</layout>
         <layout>room-21.xml</layout>
         <layout>room-22.xml</layout>
-        <layout>room-23.xml</layout>
-        <layout>room-24.xml</layout>
-        <layout>room-25.xml</layout>
-        <layout>room-26.xml</layout>
-        <layout>room-11.xml</layout>
         <layout>room-7.xml</layout>
-        <layout>room-8.xml</layout>
         <layout>room-9 (energy crystal).xml</layout>
-        <layout>room-6.xml</layout>
-        <layout>room-5.xml</layout>
-        <layout>room-4.xml</layout>
-        <layout>room-3.xml</layout>
         <layout>room-1 (beer).xml</layout>
         <layout>room-2.xml</layout>
         <layout>Start.xml</layout>
@@ -2110,19 +2098,14 @@
         <event-sheet>room-13 (start) (ROM-30).xml</event-sheet>
         <event-sheet>room-14.xml</event-sheet>
         <event-sheet>room-15 (GPS).xml</event-sheet>
-        <event-sheet>room-13 (start) (Jplay).xml</event-sheet>
         <event-sheet>Slime.xml</event-sheet>
         <event-sheet>room-12.xml</event-sheet>
         <event-sheet>Start.xml</event-sheet>
         <event-sheet>room-10.xml</event-sheet>
-        <event-sheet>room-11.xml</event-sheet>
         <event-sheet>room-7.xml</event-sheet>
         <event-sheet>room-9 (energy crystal).xml</event-sheet>
         <event-sheet>room-1 (beer).xml</event-sheet>
         <event-sheet>room-2.xml</event-sheet>
-        <event-sheet>room-3.xml</event-sheet>
-        <event-sheet>room-4.xml</event-sheet>
-        <event-sheet>room-5.xml</event-sheet>
         <event-sheet>room-6.xml</event-sheet>
         <event-sheet>EOG.xml</event-sheet>
         <event-sheet>blood.xml</event-sheet>

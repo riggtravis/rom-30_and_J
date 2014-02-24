@@ -4,21 +4,8 @@
     <name>Jplay</name>
     <events>
         <include>EOG</include>
-        <event-block sid="3231033161590552">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="7954519995822246" type="Keyboard">
-                    <param id="0" name="Key">40 (Down arrow)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="12" name="Fall through" sid="6504872169942629" type="J" />
-            </actions>
-        </event-block>
         <event-block any="1" sid="1723165231013912">
             <conditions>
-                <condition id="0" name="On key pressed" sid="1449094129696359" type="Keyboard">
-                    <param id="0" name="Key">88 (X)</param>
-                </condition>
                 <condition id="2" name="Key is down" sid="17201196214212" type="Keyboard">
                     <param id="0" name="Key">87 (W)</param>
                 </condition>
@@ -64,11 +51,8 @@
             </actions>
         </event-block>
         <comment>Mirror the player&apos;s image so they appear facing the right way when moving left or right.</comment>
-        <event-block any="1" sid="3583044719267232">
+        <event-block sid="3583044719267232">
             <conditions>
-                <condition id="0" name="On key pressed" sid="3974183263106727" type="Keyboard">
-                    <param id="0" name="Key">37 (Left arrow)</param>
-                </condition>
                 <condition id="0" name="On key pressed" sid="6415714391905992" type="Keyboard">
                     <param id="0" name="Key">65 (A)</param>
                 </condition>
@@ -83,11 +67,8 @@
                 </action>
             </actions>
         </event-block>
-        <event-block any="1" sid="2127843349673061">
+        <event-block sid="2127843349673061">
             <conditions>
-                <condition id="0" name="On key pressed" sid="5855219139419474" type="Keyboard">
-                    <param id="0" name="Key">39 (Right arrow)</param>
-                </condition>
                 <condition id="0" name="On key pressed" sid="2852224652613697" type="Keyboard">
                     <param id="0" name="Key">68 (D)</param>
                 </condition>

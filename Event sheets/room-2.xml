@@ -5,5 +5,57 @@
     <events>
         <include>ROMplay</include>
         <include>Jplay</include>
+        <event-block sid="3955271078667171">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="5430097588372356" type="J">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4740808921999052" type="System">
+                    <param id="0" name="Layout">room-1 (beer)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6651526056675918">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="2094362601806634" type="J">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">490</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8379992002042343" type="System">
+                    <param id="0" name="Layout">room-7</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9501129982610354">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="2215554594939601" type="ROM30">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4623465976241667" type="System">
+                    <param id="0" name="Layout">room-1 (beer)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6955569308622509">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="2898710172159711" type="ROM30">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">490</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4145120051066463" type="System">
+                    <param id="0" name="Layout">room-7</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -31,5 +31,14 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="6758788268873488">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="1498056746293181" type="ROM30">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">840</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
     </events>
 </c2eventsheet>
