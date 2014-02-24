@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Start</name>
     <events>
+        <variable constant="0" name="BlueCrystals" sid="7686118008571548" static="0" type="number">0</variable>
+        <variable constant="0" name="RedCrystals" sid="6821801797461791" static="0" type="number">0</variable>
         <event-block sid="5524252416379815">
             <conditions>
                 <condition id="0" name="On key pressed" sid="5643911782152053" type="Keyboard">
@@ -12,6 +14,18 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="9143405522301536" type="System">
                     <param id="0" name="Layout">Select</param>
+                </action>
+                <action id="0" name="Play" sid="5882276741855151" type="Audio">
+                    <param id="0" name="Audio file">off</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">350</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="1056886372968487" type="Audio">
+                    <param id="0" name="Audio file">08_-_Delusional_Lies_0</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

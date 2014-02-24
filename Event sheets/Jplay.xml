@@ -36,6 +36,12 @@
                     <param id="0" name="Animation">&quot;stand&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
+                <action id="0" name="Play" sid="1231060534114423" type="Audio">
+                    <param id="0" name="Audio file">jumpland</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="9567696458951623">
@@ -92,13 +98,13 @@
                     </conditions>
                     <actions>
                         <action behavior="Platform" id="9" name="Set vector Y" sid="2260053049385336" type="J">
-                            <param id="0" name="Vector Y">-501</param>
+                            <param id="0" name="Vector Y">-500</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block collapsed="1" sid="9883114819184051">
+        <event-block sid="9883114819184051">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="7164006944818964" type="System" />
             </conditions>
@@ -166,7 +172,7 @@
             </conditions>
             <actions>
                 <action id="7" name="Set mirrored" sid="3632376396938172" type="J">
-                    <param id="0" name="State">0</param>
+                    <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>
@@ -178,7 +184,7 @@
             </conditions>
             <actions>
                 <action id="7" name="Set mirrored" sid="3359781655569354" type="J">
-                    <param id="0" name="State">1</param>
+                    <param id="0" name="State">0</param>
                 </action>
             </actions>
         </event-block>
@@ -190,6 +196,60 @@
             </conditions>
             <actions>
                 <action behavior="Platform" id="12" name="Fall through" sid="7535917541642722" type="J" />
+            </actions>
+        </event-block>
+        <event-block sid="8324059854814289">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="7897906890875013" type="J">
+                    <param id="0" name="Object">ROMchoice</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="8491730687270263" type="Audio">
+                    <param id="0" name="Audio file">on</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">70</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="4175625355779744" type="System">
+                    <param id="0" name="Layout">Select</param>
+                </action>
+                <action id="-9" name="Destroy" sid="1995379605016944" type="J" />
+            </actions>
+        </event-block>
+        <event-block sid="6906948866433869">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9070964912997352" type="J">
+                    <param id="0" name="Object">BlueCrystal</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="7060527852892612" type="System">
+                    <param id="0" name="Variable">BlueCrystals</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="4888690905996952" type="BlueCrystal" />
+                <action id="0" name="Play" sid="5273679282642449" type="Audio">
+                    <param id="0" name="Audio file">getruby</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">60</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7540519578086995">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="6445426717728476" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="1071741817971388" type="Audio">
+                    <param id="0" name="Audio file">pop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">70</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
     </events>

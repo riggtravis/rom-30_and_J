@@ -22,8 +22,26 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="5409142497177862">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="4276856073868912" type="ROM30Inv">
+                    <param id="0" name="Instance variable">GPS</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
         <event-block any="1" sid="7045615369329688">
-            <conditions />
+            <conditions>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="3982638348459904" type="ROM30Inv">
+                    <param id="0" name="Instance variable">GPS</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="2842566147683396" type="ROM30Inv">
+                    <param id="0" name="Instance variable">KevlarVest</param>
+                </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="8743134950098481" type="ROM30Inv">
+                    <param id="0" name="Instance variable">Beer</param>
+                </condition>
+            </conditions>
             <actions />
             <sub-events>
                 <event-block sid="8093757582021343">
@@ -32,6 +50,10 @@
                         <action id="4" name="Set animation" sid="3866382458830045" type="ROM30">
                             <param id="0" name="Animation">&quot;pickup&quot;</param>
                             <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="1000843451239916" type="ROM30Inv">
+                            <param id="0" name="Instance variable">GPS</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>

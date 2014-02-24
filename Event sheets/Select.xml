@@ -37,5 +37,39 @@
                 </action>
             </actions>
         </event-block>
+        <event-block any="1" sid="1606197589454198">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="4247511508233212" type="Choice">
+                    <param id="0" name="Object">Jchoice</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="2147006409099153" type="Choice">
+                    <param id="0" name="Object">ROMchoice</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="5141251069751458" type="Audio">
+                    <param id="0" name="Audio file">on</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">50</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7404041454280192">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="1000146083929082" type="System">
+                    <param id="0" name="Variable">BlueCrystals</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="3456761214513686" type="Unfilled_Gem">
+                    <param id="0" name="Object">BlueCrystal</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

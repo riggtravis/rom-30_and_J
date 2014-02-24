@@ -167,6 +167,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Persist" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -202,6 +205,37 @@
             <effects />
         </layer>
     </layers>
-    <nonworld-instances />
+    <nonworld-instances>
+        <instance type="ROM30Inv" uid="126">
+            <properties>
+                <width>10</width>
+                <height>1</height>
+                <depth>1</depth>
+            </properties>
+            <instance-variables>
+                <GPS>false</GPS>
+                <KevlarVest>false</KevlarVest>
+                <Beer>false</Beer>
+                <ReceivedAV>false</ReceivedAV>
+                <ReceivedEC>false</ReceivedEC>
+                <ReceivedDS>false</ReceivedDS>
+            </instance-variables>
+        </instance>
+        <instance type="JInv" uid="127">
+            <properties>
+                <width>10</width>
+                <height>1</height>
+                <depth>1</depth>
+            </properties>
+            <instance-variables>
+                <AV>false</AV>
+                <DS>false</DS>
+                <EC>false</EC>
+                <ReceivedGPS>false</ReceivedGPS>
+                <ReceivedBeer>false</ReceivedBeer>
+                <ReceivedKV>false</ReceivedKV>
+            </instance-variables>
+        </instance>
+    </nonworld-instances>
     <effects />
 </c2layout>
