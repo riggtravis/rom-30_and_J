@@ -681,26 +681,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="GPS" sid="1703565264946324">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Persist" sid="5607402770171842">
-                    <behavior id="Persist" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7517461784297017" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0.5" y="0.0154639" />
-                            <point x="0.984848" y="0.5" />
-                            <point x="0.5" y="0.984536" />
-                            <point x="0.0151515" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type global="1" name="ROM30Inv" sid="7504782738862094">
             <plugin id="Arr" />
             <instance-variables>
@@ -722,93 +702,6 @@
                 <instance-variable comment="Has ROM30 handed over the beer?" name="ReceivedBeer" sid="1525454394301829" type="boolean" />
                 <instance-variable comment="Has ROM30 handed over the vest?" name="ReceivedKV" sid="9046618120999826" type="boolean" />
             </instance-variables>
-        </object-type>
-        <object-type name="Slime" sid="6993908244743364">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable comment="Move the slime left" name="Left" sid="4306334664628167" type="boolean" />
-            </instance-variables>
-            <behaviors>
-                <behavior-type name="Platform" sid="4363568341988749">
-                    <behavior id="Platform" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="7169304349687877">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="8327021619997879" speed="5">
-                    <frame duration="1" hotspotX="0.52" hotspotY="0.964286">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="4" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="9440526602341145" speed="5">
-                    <frame duration="1" hotspotX="0.44" hotspotY="1.03571" />
-                    <frame duration="1" hotspotX="0.529412" hotspotY="1.03846" />
-                    <frame duration="1" hotspotX="0.46" hotspotY="1.03571" />
-                    <frame duration="1" hotspotX="0.529412" hotspotY="1.03846" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Fly" sid="8556109344128404">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="4" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="6867809221076365" speed="4">
-                    <frame duration="1" hotspotX="0.506667" hotspotY="0.516129">
-                        <collision-poly>
-                            <point x="0.0533333" y="0.129032" />
-                            <point x="0.493333" y="0" />
-                            <point x="0.933333" y="0.16129" />
-                            <point x="0.986667" y="0.483871" />
-                            <point x="0.84" y="0.612903" />
-                            <point x="0.493333" y="1" />
-                            <point x="0.186667" y="0.548387" />
-                            <point x="0.0266667" y="0.483871" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.527778" hotspotY="0.444444">
-                        <collision-poly>
-                            <point x="0.0555556" y="0.111111" />
-                            <point x="0.5" y="0.138889" />
-                            <point x="0.944444" y="0.111111" />
-                            <point x="0.847222" y="0.5" />
-                            <point x="0.777778" y="0.555556" />
-                            <point x="0.5" y="1" />
-                            <point x="0.208333" y="0.583333" />
-                            <point x="0.138889" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.506667" hotspotY="0.516129">
-                        <collision-poly>
-                            <point x="0.0533333" y="0.129032" />
-                            <point x="0.493333" y="0" />
-                            <point x="0.933333" y="0.16129" />
-                            <point x="0.986667" y="0.483871" />
-                            <point x="0.84" y="0.612903" />
-                            <point x="0.493333" y="1" />
-                            <point x="0.186667" y="0.548387" />
-                            <point x="0.0266667" y="0.483871" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.527778" hotspotY="0.444444">
-                        <collision-poly>
-                            <point x="0.0555556" y="0.111111" />
-                            <point x="0.5" y="0.138889" />
-                            <point x="0.944444" y="0.111111" />
-                            <point x="0.847222" y="0.5" />
-                            <point x="0.777778" y="0.555556" />
-                            <point x="0.5" y="1" />
-                            <point x="0.208333" y="0.583333" />
-                            <point x="0.138889" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
         </object-type>
         <object-type name="BlockingTile" sid="8819364282492271">
             <plugin id="Sprite" />
@@ -1532,6 +1425,11 @@
         </object-type>
         <object-type name="room18" sid="4469691894366819">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1153499750585479">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="8">
@@ -1642,6 +1540,11 @@
         </object-type>
         <object-type name="room22" sid="7652979286667239">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1421331087849455">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="1">
@@ -1705,6 +1608,11 @@
         </object-type>
         <object-type name="room25" sid="9616360800067662">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9576360633329204">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="0">
@@ -2069,6 +1977,40 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="BlueCrystal" sid="4791717953456007">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3012116470058815" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.194444" y="0.0769231" />
+                            <point x="0.5" y="0.0384615" />
+                            <point x="0.805556" y="0.0769231" />
+                            <point x="0.972222" y="0.5" />
+                            <point x="0.5" y="0.961538" />
+                            <point x="0.0277778" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RedCrystal" sid="8281342691273329">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7172763254764155" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.194444" y="0.0769231" />
+                            <point x="0.5" y="0.0384615" />
+                            <point x="0.805556" y="0.0769231" />
+                            <point x="0.972222" y="0.5" />
+                            <point x="0.5" y="0.961538" />
+                            <point x="0.0277778" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">
@@ -2083,22 +2025,19 @@
         <layout>room-13 (start) (Jplay).xml</layout>
         <layout>room-14.xml</layout>
         <layout>room-15 (GPS).xml</layout>
-        <layout>Jellominer.xml</layout>
         <layout>room-18.xml</layout>
-        <layout>room-21.xml</layout>
         <layout>room-22.xml</layout>
         <layout>Start.xml</layout>
         <layout>Credits.xml</layout>
         <layout>blood.xml</layout>
     </layout-folder>
-    <event-folder expanded="1">
+    <event-folder expanded="0">
         <event-sheet>ROMplay.xml</event-sheet>
         <event-sheet>Select.xml</event-sheet>
         <event-sheet>Jplay.xml</event-sheet>
         <event-sheet>room-13 (start).xml</event-sheet>
         <event-sheet>room-14.xml</event-sheet>
         <event-sheet>room-15 (GPS).xml</event-sheet>
-        <event-sheet>Slime.xml</event-sheet>
         <event-sheet>room-12.xml</event-sheet>
         <event-sheet>Start.xml</event-sheet>
         <event-sheet>room-10.xml</event-sheet>
@@ -2109,6 +2048,8 @@
         <event-sheet>room-6.xml</event-sheet>
         <event-sheet>EOG.xml</event-sheet>
         <event-sheet>blood.xml</event-sheet>
+        <event-sheet>room-18.xml</event-sheet>
+        <event-sheet>room-22.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="140" />

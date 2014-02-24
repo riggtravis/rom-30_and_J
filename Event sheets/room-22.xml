@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>room-22</name>
+    <events>
+        <include>ROMplay</include>
+        <include>Jplay</include>
+        <event-block any="1" sid="8239677579327046">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="6242116759262385" type="J">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">0</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="1295482273716008" type="ROM30">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="X co-ordinate">0</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block any="1" sid="3613571484740593">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="9857297808276295" type="J">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">490</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="1329823487089221" type="ROM30">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">490</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2642584261251593" type="System">
+                    <param id="0" name="Layout">room-18</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
