@@ -109,9 +109,6 @@
                 <condition id="1" name="Is overlapping another object" sid="7164006944818964" type="J">
                     <param id="0" name="Object">ROMchoice</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="288839237419715" type="Inv">
-                    <param id="0" name="Instance variable">Full</param>
-                </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="5364550121488272" type="System">

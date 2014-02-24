@@ -119,16 +119,11 @@
                 <condition id="1" name="Is overlapping another object" sid="3281721649695342" type="ROM30">
                     <param id="0" name="Object">Jchoice</param>
                 </condition>
-                <condition id="-8" name="Is boolean instance variable set" sid="9233046601066976" type="Inv">
-                    <param id="0" name="Instance variable">Full</param>
-                </condition>
             </conditions>
             <actions>
-<<<<<<< HEAD
                 <action id="-2" name="Go to layout" sid="2837232032920412" type="System">
                     <param id="0" name="Layout">Select</param>
                 </action>
-=======
                 <action id="0" name="Play" sid="236723469832075" type="Audio">
                     <param id="0" name="Audio file">on</param>
                     <param id="2" name="Loop">0</param>
@@ -139,7 +134,6 @@
                     <param id="0" name="Layout">Select</param>
                 </action>
                 <action id="-9" name="Destroy" sid="6105478876648121" type="ROM30" />
->>>>>>> 558e97e35e054b66936475d61668f93df4c89842
             </actions>
         </event-block>
         <event-block sid="2146193843765907">
