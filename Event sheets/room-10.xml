@@ -5,11 +5,15 @@
     <events>
         <include>Jplay</include>
         <include>ROMplay</include>
-        <event-block sid="8389261638621091">
+        <event-block any="1" sid="8389261638621091">
             <conditions>
                 <condition id="-1" name="Compare X" sid="3722051847307617" type="ROM30">
                     <param id="0" name="Comparison">4</param>
                     <param id="1" name="X co-ordinate">840</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="7843621785490162" type="J">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">0</param>
                 </condition>
             </conditions>
             <actions>

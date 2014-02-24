@@ -167,7 +167,11 @@
                     <param id="0" name="Key">37 (Left arrow)</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="7" name="Set mirrored" sid="3632376396938172" type="J">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="3848999982220479">
             <conditions>
@@ -179,6 +183,16 @@
                 <action id="7" name="Set mirrored" sid="3359781655569354" type="J">
                     <param id="0" name="State">1</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="3643836577991172">
+            <conditions>
+                <condition id="2" name="Key is down" sid="1596277568674843" type="Keyboard">
+                    <param id="0" name="Key">40 (Down arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="12" name="Fall through" sid="7535917541642722" type="J" />
             </actions>
         </event-block>
     </events>

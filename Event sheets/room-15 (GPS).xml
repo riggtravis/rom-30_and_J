@@ -6,9 +6,13 @@
         <include>Jplay</include>
         <include>Slime</include>
         <include>ROMplay</include>
-        <event-block sid="5239009604528605">
+        <event-block any="1" sid="5239009604528605">
             <conditions>
                 <condition id="-2" name="Compare Y" sid="1010206275637905" type="ROM30">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Y co-ordinate">0</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="1154218940873104" type="J">
                     <param id="0" name="Comparison">2</param>
                     <param id="1" name="Y co-ordinate">0</param>
                 </condition>
