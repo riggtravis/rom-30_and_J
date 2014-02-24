@@ -122,7 +122,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="room15_GPS" uid="7">
+                <instance type="room15_GPS" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <tile-width>70</tile-width>

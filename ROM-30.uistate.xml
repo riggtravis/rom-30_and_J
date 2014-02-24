@@ -13,7 +13,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>room-13 (start) (ROM-30)</layout>
         <layout>room-18</layout>
         <layout>room-22</layout>
-        <layout>Select</layout>
+        <layout active="1">Select</layout>
         <layout>Start</layout>
         <layout>Credits</layout>
         <layout>room-12</layout>
@@ -23,7 +23,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>blood</layout>
         <layout>room-14</layout>
         <layout>room-15 (GPS)</layout>
-        <layout active="1">room-13 (start) (Jplay)</layout>
+        <layout>room-13 (start) (Jplay)</layout>
         <layout>room-1 (r)</layout>
         <layout>room-2</layout>
         <layout>room-13</layout>
@@ -35,7 +35,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet>Select</event-sheet>
         <event-sheet>room-10</event-sheet>
         <event-sheet>room-7</event-sheet>
-        <event-sheet active="1">room-14</event-sheet>
+        <event-sheet>room-14</event-sheet>
         <event-sheet>room-1 (beer)</event-sheet>
         <event-sheet>room-2</event-sheet>
         <event-sheet>room-6</event-sheet>
@@ -43,6 +43,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet>Start</event-sheet>
         <event-sheet>room-18</event-sheet>
         <event-sheet>room-22</event-sheet>
+        <event-sheet>blood</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

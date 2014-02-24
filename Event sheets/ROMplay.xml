@@ -40,17 +40,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="5192248332654341">
-            <conditions>
-                <condition behavior="Platform" id="3" name="Is jumping" sid="1819150521719746" type="ROM30" />
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="666900805380352" type="ROM30">
-                    <param id="0" name="Animation">&quot;inair&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="3224194450093288">
             <conditions>
                 <condition behavior="Platform" id="7" name="On stopped" sid="6459125642921505" type="ROM30" />
@@ -129,9 +118,6 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">70</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-2" name="Go to layout" sid="5915012866746911" type="System">
-                    <param id="0" name="Layout">Select</param>
                 </action>
                 <action id="-9" name="Destroy" sid="6105478876648121" type="ROM30" />
             </actions>

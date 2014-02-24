@@ -270,7 +270,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="40">
+                <instance type="Text" uid="65">
                     <properties>
                         <text>Music</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -297,7 +297,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="41">
+                <instance type="Text" uid="66">
                     <properties>
                         <text>Aleeious</text>
                         <initial-visibility>Visible</initial-visibility>

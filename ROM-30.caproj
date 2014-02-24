@@ -66,9 +66,6 @@
                 <behavior-type name="LineOfSight" sid="6304466556058982">
                     <behavior id="LOS" />
                 </behavior-type>
-                <behavior-type name="Persist" sid="8629527323020609">
-                    <behavior id="Persist" />
-                </behavior-type>
             </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="stand" pingpong="0" repeatcount="1" repeatto="0" sid="1128942535181116" speed="5">
@@ -551,9 +548,6 @@
                 </behavior-type>
                 <behavior-type name="LineOfSight" sid="9184441626690677">
                     <behavior id="LOS" />
-                </behavior-type>
-                <behavior-type name="Persist" sid="7503798480382835">
-                    <behavior id="Persist" />
                 </behavior-type>
             </behaviors>
             <animation-folder expanded="1">
@@ -1986,11 +1980,7 @@
         <object-type name="BlueCrystal" sid="4791717953456007">
             <plugin id="Sprite" />
             <behaviors>
-<<<<<<< HEAD
-                <behavior-type name="Persist" sid="8899542593779557">
-=======
                 <behavior-type name="Persist" sid="7833493753439763">
->>>>>>> 558e97e35e054b66936475d61668f93df4c89842
                     <behavior id="Persist" />
                 </behavior-type>
             </behaviors>
@@ -2012,11 +2002,7 @@
         <object-type name="RedCrystal" sid="8281342691273329">
             <plugin id="Sprite" />
             <behaviors>
-<<<<<<< HEAD
-                <behavior-type name="Persist" sid="370658027859985">
-=======
                 <behavior-type name="Persist" sid="3899137060304784">
->>>>>>> 558e97e35e054b66936475d61668f93df4c89842
                     <behavior id="Persist" />
                 </behavior-type>
             </behaviors>
@@ -2100,7 +2086,7 @@
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="140" />
-        <global-instance type="Audio" uid="42">
+        <global-instance type="Audio" uid="81">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>

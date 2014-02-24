@@ -4,18 +4,6 @@
     <name>Jplay</name>
     <events>
         <include>EOG</include>
-        <comment>If the player falls off the bottom of the layout, restart the level.</comment>
-        <event-block sid="1751851260356753">
-            <conditions>
-                <condition behavior="Platform" id="3" name="Is jumping" sid="6636516471103924" type="J" />
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="6684844629107201" type="J">
-                    <param id="0" name="Animation">&quot;inair&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="1537732307198694">
             <conditions>
                 <condition behavior="Platform" id="7" name="On stopped" sid="5083626516657868" type="J" />
@@ -106,15 +94,9 @@
         </event-block>
         <event-block sid="9883114819184051">
             <conditions>
-                <condition id="1" name="Is overlapping another object" sid="7164006944818964" type="J">
-                    <param id="0" name="Object">ROMchoice</param>
-                </condition>
+                <condition id="-2" name="On start of layout" sid="2809602176280789" type="System" />
             </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="5364550121488272" type="System">
-                    <param id="0" name="Layout">Select</param>
-                </action>
-            </actions>
+            <actions />
             <sub-events>
                 <event-block sid="7041746635092664">
                     <conditions>
@@ -220,7 +202,7 @@
                 <action id="-2" name="Go to layout" sid="4175625355779744" type="System">
                     <param id="0" name="Layout">Select</param>
                 </action>
-                <action id="-9" name="Destroy" sid="1995379605016944" type="J" />
+                <action id="-9" name="Destroy" sid="3637737906363574" type="J" />
             </actions>
         </event-block>
         <event-block sid="6906948866433869">
@@ -239,21 +221,6 @@
                     <param id="0" name="Audio file">getruby</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">60</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="7540519578086995">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="6445426717728476" type="Keyboard">
-                    <param id="0" name="Key">38 (Up arrow)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Play" sid="1071741817971388" type="Audio">
-                    <param id="0" name="Audio file">pop</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">70</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
