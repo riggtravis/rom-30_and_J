@@ -1504,6 +1504,11 @@
         </object-type>
         <object-type name="room21" sid="9301013089925172">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="5167156921352731">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture />
             <tiles>
                 <tile id="8">
@@ -2001,7 +2006,7 @@
     <families />
     <layout-folder expanded="1">
         <layout>Select.xml</layout>
-        <layout>room-1 (beer).xml</layout>
+        <layout>room-1 (r).xml</layout>
         <layout>room-2.xml</layout>
         <layout>room-7.xml</layout>
         <layout>room-9 (energy crystal).xml</layout>

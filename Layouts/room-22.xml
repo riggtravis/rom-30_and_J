@@ -208,6 +208,13 @@
                         <tile-x-spacing>0</tile-x-spacing>
                         <tile-y-spacing>0</tile-y-spacing>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
