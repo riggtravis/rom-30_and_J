@@ -71,6 +71,12 @@
                     <param id="0" name="Animation">&quot;stand&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
+                <action id="0" name="Play" sid="9288867989814917" type="Audio">
+                    <param id="0" name="Audio file">jumpland</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="836258241299423">
@@ -118,9 +124,22 @@
                 </condition>
             </conditions>
             <actions>
+<<<<<<< HEAD
                 <action id="-2" name="Go to layout" sid="2837232032920412" type="System">
                     <param id="0" name="Layout">Select</param>
                 </action>
+=======
+                <action id="0" name="Play" sid="236723469832075" type="Audio">
+                    <param id="0" name="Audio file">on</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">70</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="5915012866746911" type="System">
+                    <param id="0" name="Layout">Select</param>
+                </action>
+                <action id="-9" name="Destroy" sid="6105478876648121" type="ROM30" />
+>>>>>>> 558e97e35e054b66936475d61668f93df4c89842
             </actions>
         </event-block>
         <event-block sid="2146193843765907">
@@ -182,6 +201,41 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="3358647191607389">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6128158552851231" type="ROM30">
+                    <param id="0" name="Object">RedCrystal</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="2138540723664295" type="System">
+                    <param id="0" name="Variable">RedCrystals</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="4955688450738056" type="RedCrystal" />
+                <action id="0" name="Play" sid="2582596980818949" type="Audio">
+                    <param id="0" name="Audio file">getruby</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">60</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2255029895359901">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="3887072251294047" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="7067757702168914" type="Audio">
+                    <param id="0" name="Audio file">pop</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">70</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
