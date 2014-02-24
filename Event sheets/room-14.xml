@@ -39,5 +39,31 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="710013222855475">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="1670085857275436" type="ROM30">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">840</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6008934012238403" type="System">
+                    <param id="0" name="Layout">room-18</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9160942834899319">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="7829335784914837" type="J">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">840</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1497419228735349" type="System">
+                    <param id="0" name="Layout">room-18</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

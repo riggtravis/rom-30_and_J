@@ -4,7 +4,6 @@
     <name>room-15 (GPS)</name>
     <events>
         <include>Jplay</include>
-        <include>Slime</include>
         <include>ROMplay</include>
         <event-block any="1" sid="5239009604528605">
             <conditions>
@@ -29,9 +28,7 @@
                     <param id="0" name="Instance variable">GPS</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="7403013284212444" type="GPS" />
-            </actions>
+            <actions />
         </event-block>
         <event-block any="1" sid="7045615369329688">
             <conditions>
@@ -48,13 +45,8 @@
             <actions />
             <sub-events>
                 <event-block sid="8093757582021343">
-                    <conditions>
-                        <condition id="1" name="Is overlapping another object" sid="8530464794919313" type="ROM30">
-                            <param id="0" name="Object">GPS</param>
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions>
-                        <action id="-9" name="Destroy" sid="6727288900116948" type="GPS" />
                         <action id="4" name="Set animation" sid="3866382458830045" type="ROM30">
                             <param id="0" name="Animation">&quot;pickup&quot;</param>
                             <param id="1" name="From">1</param>
