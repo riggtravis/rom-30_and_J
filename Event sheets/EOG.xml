@@ -3,24 +3,32 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EOG</name>
     <events>
-        <event-block sid="3282530003615823">
+        <event-block sid="2842050557485765">
             <conditions>
-                <condition id="-14" name="Compare variable" sid="8440554973547681" type="System">
-                    <param id="0" name="Variable">BlueCrystals</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">3</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="9206890027663465" type="System">
-                    <param id="0" name="Variable">RedCrystals</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">3</param>
-                </condition>
+                <condition id="-1" name="Every tick" sid="5385977604174562" type="System" />
             </conditions>
-            <actions>
-                <action id="-25" name="Go to layout (by name)" sid="3681651462315331" type="System">
-                    <param id="0" name="Layout">&quot;blood&quot;</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="3282530003615823">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8440554973547681" type="System">
+                            <param id="0" name="Variable">BlueCrystals</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9206890027663465" type="System">
+                            <param id="0" name="Variable">RedCrystals</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="3681651462315331" type="System">
+                            <param id="0" name="Layout">&quot;blood&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
