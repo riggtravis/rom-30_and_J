@@ -202,7 +202,9 @@
                 <action id="-2" name="Go to layout" sid="4175625355779744" type="System">
                     <param id="0" name="Layout">Select</param>
                 </action>
-                <action id="-9" name="Destroy" sid="3637737906363574" type="J" />
+                <action id="-15" name="Set visible" sid="1365026303209473" type="J">
+                    <param id="0" name="Visibility">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="6906948866433869">

@@ -64,64 +64,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="BlockingTile" uid="91">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>359</x>
-                        <y>408</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>14</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0.000008816</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="BlockingTile" uid="139">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>763</x>
-                        <y>406</y>
-                        <z>0</z>
-                        <width>10</width>
-                        <height>14</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0.000008816</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="room15_GPS" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -157,7 +99,7 @@
                         <height>7</height>
                         <max-width>26</max-width>
                         <max-height>15</max-height>
-                        <data>59,59,71,71,71,71,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,78,71,71,71,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,78,71,71,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,78,71,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,74,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,40,-1,-1,-1,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,41,-1,-1,-1,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,41,-1,-1,-1,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,41,-1,-1,-1,71,-1,-1,-1,-1,-1,-1,-1,-1,47,59,71,47,59,71,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1</data>
+                        <data>59,59,71,71,71,71,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,78,71,71,71,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,78,71,71,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,78,71,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,74,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,40,-1,-1,-1,71,-1,-1,-1,-1,-1,-1,-1,-1,9,-1,41,-1,-1,-1,71,-1,-1,-1,-1,-1,-1,-1,-1,9,-1,41,-1,-1,-1,71,-1,-1,-1,-1,-1,-1,-1,-1,9,-1,41,-1,-1,-1,71,-1,-1,-1,-1,-1,-1,-1,-1,47,59,71,47,59,71,71,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1</data>
                     </tilemap-data>
                 </instance>
                 <instance type="RedCrystal" uid="30">
@@ -205,37 +147,6 @@
             <effects />
         </layer>
     </layers>
-    <nonworld-instances>
-        <instance type="ROM30Inv" uid="126">
-            <properties>
-                <width>10</width>
-                <height>1</height>
-                <depth>1</depth>
-            </properties>
-            <instance-variables>
-                <GPS>false</GPS>
-                <KevlarVest>false</KevlarVest>
-                <Beer>false</Beer>
-                <ReceivedAV>false</ReceivedAV>
-                <ReceivedEC>false</ReceivedEC>
-                <ReceivedDS>false</ReceivedDS>
-            </instance-variables>
-        </instance>
-        <instance type="JInv" uid="127">
-            <properties>
-                <width>10</width>
-                <height>1</height>
-                <depth>1</depth>
-            </properties>
-            <instance-variables>
-                <AV>false</AV>
-                <DS>false</DS>
-                <EC>false</EC>
-                <ReceivedGPS>false</ReceivedGPS>
-                <ReceivedBeer>false</ReceivedBeer>
-                <ReceivedKV>false</ReceivedKV>
-            </instance-variables>
-        </instance>
-    </nonworld-instances>
+    <nonworld-instances />
     <effects />
 </c2layout>

@@ -119,7 +119,9 @@
                     <param id="3" name="Volume">70</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
-                <action id="-9" name="Destroy" sid="6105478876648121" type="ROM30" />
+                <action id="-15" name="Set visible" sid="3276913189344305" type="ROM30">
+                    <param id="0" name="Visibility">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="2146193843765907">
